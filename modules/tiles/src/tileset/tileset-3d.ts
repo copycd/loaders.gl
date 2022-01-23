@@ -46,15 +46,15 @@ import {
   LoaderWithParser,
   LoaderOptions
 } from '@loaders.gl/loader-utils';
-import TilesetCache from './tileset-cache';
-import {calculateTransformProps} from './helpers/transform-utils';
-import {FrameState, getFrameState} from './helpers/frame-state';
-import {getZoomFromBoundingVolume} from './helpers/zoom';
-import Tile3D from './tile-3d';
-import Tileset3DTraverser from './traversers/tileset-3d-traverser';
-import TilesetTraverser from './traversers/tileset-traverser';
-import I3SetTraverser from './traversers/i3s-tileset-traverser';
-import {TILESET_TYPE} from '../constants';
+import TilesetCache from './tileset-cache.js';
+import {calculateTransformProps} from './helpers/transform-utils.js';
+import {FrameState, getFrameState} from './helpers/frame-state.js';
+import {getZoomFromBoundingVolume} from './helpers/zoom.js';
+import Tile3D from './tile-3d.js';
+import Tileset3DTraverser from './traversers/tileset-3d-traverser.js';
+import TilesetTraverser from './traversers/tileset-traverser.js';
+import I3SetTraverser from './traversers/i3s-tileset-traverser.js';
+import {TILESET_TYPE} from '../constants.js';
 
 export type Tileset3DProps = {
   // loading

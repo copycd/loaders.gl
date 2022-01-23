@@ -1,8 +1,8 @@
 /* global importScripts */
-import {global, isBrowser, isWorker} from '../env-utils/globals';
-import * as node from '../node/require-utils.node';
-import {assert} from '../env-utils/assert';
-import {VERSION as __VERSION__} from '../env-utils/version';
+import {global, isBrowser, isWorker} from '../env-utils/globals.js';
+import * as node from '../node/require-utils.node.js';
+import {assert} from '../env-utils/assert.js';
+import {VERSION as __VERSION__} from '../env-utils/version.js';
 
 // TODO - unpkg.com doesn't seem to have a `latest` specifier for alpha releases...
 const LATEST = 'beta';

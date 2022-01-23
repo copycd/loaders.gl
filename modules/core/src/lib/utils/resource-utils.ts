@@ -1,5 +1,5 @@
-import {isResponse, isBlob} from '../../javascript-utils/is-type';
-import {parseMIMEType, parseMIMETypeFromURL} from './mime-type-utils';
+import {isResponse, isBlob} from '../../javascript-utils/is-type.js';
+import {parseMIMEType, parseMIMETypeFromURL} from './mime-type-utils.js';
 
 const QUERY_STRING_PATTERN = /\?.*/;
 

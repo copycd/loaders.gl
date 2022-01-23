@@ -17,10 +17,10 @@ import {
   TileContentTexture,
   HeaderAttributeProperty,
   I3SMaterialDefinition
-} from '../../types';
-import {getUrlWithToken} from '../utils/url-utils';
+} from '../../types.js';
+import {getUrlWithToken} from '../utils/url-utils.js';
 
-import {GL_TYPE_MAP, getConstructorForDataFormat, sizeOf, COORDINATE_SYSTEM} from './constants';
+import {GL_TYPE_MAP, getConstructorForDataFormat, sizeOf, COORDINATE_SYSTEM} from './constants.js';
 
 const scratchVector = new Vector3([0, 0, 0]);
 

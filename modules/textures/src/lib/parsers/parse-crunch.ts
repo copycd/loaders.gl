@@ -1,9 +1,9 @@
 import type {TextureLevel} from '@loaders.gl/schema';
-import {loadCrunchModule} from './crunch-module-loader';
-import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions';
+import {loadCrunchModule} from './crunch-module-loader.js';
+import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions.js';
 import {assert} from '@loaders.gl/loader-utils';
-import {getDxt1LevelSize, getDxtXLevelSize} from './parse-dds';
-import {extractMipmapImages} from '../utils/extract-mipmap-images';
+import {getDxt1LevelSize, getDxtXLevelSize} from './parse-dds.js';
+import {extractMipmapImages} from '../utils/extract-mipmap-images.js';
 
 // Taken from crnlib.h
 const CRN_FORMAT = {

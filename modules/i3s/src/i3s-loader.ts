@@ -1,8 +1,8 @@
 import type {LoaderWithParser} from '@loaders.gl/loader-utils';
 import {load, parse} from '@loaders.gl/core';
-import {I3SContentLoader} from './i3s-content-loader';
-import {normalizeTileData, normalizeTilesetData} from './lib/parsers/parse-i3s';
-import {COORDINATE_SYSTEM} from './lib/parsers/constants';
+import {I3SContentLoader} from './i3s-content-loader.js';
+import {normalizeTileData, normalizeTilesetData} from './lib/parsers/parse-i3s.js';
+import {COORDINATE_SYSTEM} from './lib/parsers/constants.js';
 
 // __VERSION__ is injected by babel-plugin-version-inline
 // @ts-ignore TS2304: Cannot find name '__VERSION__'.

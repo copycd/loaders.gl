@@ -1,6 +1,6 @@
 import {Vector3} from '@math.gl/core';
 import {BoundingSphere, OrientedBoundingBox} from '@math.gl/culling';
-import {BoundingRectangle} from '../../types';
+import {BoundingRectangle} from '../../types.js';
 
 const WGS84_RADIUS_X = 6378137.0;
 const WGS84_RADIUS_Y = 6378137.0;

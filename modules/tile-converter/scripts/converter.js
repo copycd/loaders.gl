@@ -1,7 +1,9 @@
 /* eslint-disable no-console */
 import {join} from 'path';
-const {I3SConverter, Tiles3DConverter, DepsInstaller} = require('@loaders.gl/tile-converter');
-import '@loaders.gl/polyfills';
+import { I3SConverter, Tiles3DConverter, DepsInstaller } from "@loaders.gl/tile-converter";
+//import { } from '@loaders.gl/polyfills';
+//import '../../polyfills/dist/index.js';
+
 
 const TILESET_TYPE = {
   I3S: 'I3S',

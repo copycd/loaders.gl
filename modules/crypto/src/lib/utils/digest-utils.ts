@@ -1,4 +1,4 @@
-import {toBase64} from './base64-utils';
+import {toBase64} from './base64-utils.js';
 
 /**
  *

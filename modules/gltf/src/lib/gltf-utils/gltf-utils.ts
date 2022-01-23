@@ -1,4 +1,4 @@
-import {assert} from '../utils/assert';
+import {assert} from '../utils/assert.js';
 
 const TYPES = ['SCALAR', 'VEC2', 'VEC3', 'VEC4'];
 

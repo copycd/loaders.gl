@@ -1,4 +1,4 @@
-import {concatenateArrayBuffers} from '../binary-utils/array-buffer-utils';
+import {concatenateArrayBuffers} from '../binary-utils/array-buffer-utils.js';
 
 // GENERAL UTILITIES
 

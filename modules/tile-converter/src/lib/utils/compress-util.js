@@ -2,12 +2,12 @@ import {createGzip} from 'zlib';
 import {join} from 'path';
 import {promises as fs, createReadStream, createWriteStream} from 'fs';
 import archiver from 'archiver';
-import {removeFile} from './file-utils';
+import {removeFile} from './file-utils.js';
 import {ChildProcessProxy} from '@loaders.gl/worker-utils';
 import JSZip from 'jszip';
 import {MD5Hash} from '@loaders.gl/crypto';
 import crypt from 'crypt';
-import {getAbsoluteFilePath} from './file-utils';
+import {getAbsoluteFilePath} from './file-utils.js';
 
 export function compressFileWithGzip(pathFile) {
   const compressedPathFile = `${pathFile}.gz`;

@@ -3,6 +3,8 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
   "compilerOptions": {
+	"target": "es6",
+	"module": "es6",
     "composite": true,
     "rootDir": "src",
     "outDir": "dist"

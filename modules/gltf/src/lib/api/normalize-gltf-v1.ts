@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import * as KHR_binary_glTF from '../extensions/KHR_binary_gltf';
+import * as KHR_binary_glTF from '../extensions/KHR_binary_gltf.js';
 
 // Binary format changes (mainly implemented by GLBLoader)
 // https://github.com/KhronosGroup/glTF/tree/master/extensions/1.0/Khronos/KHR_binary_glTF

@@ -11,16 +11,16 @@ import type {
   GLTFImage,
   GLTFBuffer,
   GLTFBufferView
-} from '../types/gltf-types';
+} from '../types/gltf-types.js';
 
 import {getBinaryImageMetadata} from '@loaders.gl/images';
 import {padToNBytes, copyToArray} from '@loaders.gl/loader-utils';
-import {assert} from '../utils/assert';
+import {assert} from '../utils/assert.js';
 import {
   getAccessorArrayTypeAndLength,
   getAccessorTypeFromSize,
   getComponentTypeFromArray
-} from '../gltf-utils/gltf-utils';
+} from '../gltf-utils/gltf-utils.js';
 
 type GLTFWithBuffers = {
   json: GLTF;

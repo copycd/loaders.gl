@@ -1,7 +1,7 @@
-import type {ImageLoaderOptions} from '../../image-loader';
-import type {ImageDataType} from '../../types';
+import type {ImageLoaderOptions} from '../../image-loader.js';
+import type {ImageDataType} from '../../types.js';
 import {assert} from '@loaders.gl/loader-utils';
-import {getBinaryImageMetadata} from '../category-api/binary-image-api';
+import {getBinaryImageMetadata} from '../category-api/binary-image-api.js';
 
 // Note: These types should be consistent with loaders.gl/polyfills
 

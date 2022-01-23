@@ -1,5 +1,5 @@
-import {GL} from '../constants';
-import {getPrimitiveModeType} from '../primitives/modes';
+import {GL} from '../constants.js';
+import {getPrimitiveModeType} from '../primitives/modes.js';
 import {assert} from '@loaders.gl/loader-utils';
 
 /**

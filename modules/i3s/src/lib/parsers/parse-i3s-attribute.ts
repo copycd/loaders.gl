@@ -3,7 +3,7 @@ import {
   OBJECT_ID_ATTRIBUTE_TYPE,
   FLOAT_64_TYPE,
   INT_16_ATTRIBUTE_TYPE
-} from './constants';
+} from './constants.js';
 
 /**
  * Get particular tile and creates attribute object inside.

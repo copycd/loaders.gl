@@ -1,4 +1,4 @@
-import type {ImageType, ImageTypeEnum, ImageDataType} from '../../types';
+import type {ImageType, ImageTypeEnum, ImageDataType} from '../../types.js';
 
 export function isImage(image: ImageType): boolean {
   return Boolean(getImageTypeOrNull(image));

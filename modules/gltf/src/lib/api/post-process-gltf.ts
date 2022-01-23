@@ -1,7 +1,7 @@
-import {assert} from '../utils/assert';
-import {getAccessorArrayTypeAndLength} from '../gltf-utils/gltf-utils';
-import {BufferView} from '../types/gltf-json-schema';
-import {BufferView as BufferViewPostprocessed} from '../types/gltf-postprocessed-schema';
+import {assert} from '../utils/assert.js';
+import {getAccessorArrayTypeAndLength} from '../gltf-utils/gltf-utils.js';
+import {BufferView} from '../types/gltf-json-schema.js';
+import {BufferView as BufferViewPostprocessed} from '../types/gltf-postprocessed-schema.js';
 
 // This is a post processor for loaded glTF files
 // The goal is to make the loaded data easier to use in WebGL applications

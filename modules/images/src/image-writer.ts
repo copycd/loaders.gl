@@ -1,6 +1,6 @@
 // import type {Writer} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
-import {encodeImage} from './lib/encoders/encode-image';
+import {VERSION} from './lib/utils/version.js';
+import {encodeImage} from './lib/encoders/encode-image.js';
 
 export const ImageWriter = {
   name: 'Images',

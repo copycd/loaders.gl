@@ -1,5 +1,5 @@
 import type {WorkerJob, WorkerMessageType, WorkerMessagePayload} from '@loaders.gl/worker-utils';
-import type {Loader, LoaderOptions, LoaderContext} from '../../types';
+import type {Loader, LoaderOptions, LoaderContext} from '../../types.js';
 import {WorkerFarm, getWorkerURL} from '@loaders.gl/worker-utils';
 
 /**

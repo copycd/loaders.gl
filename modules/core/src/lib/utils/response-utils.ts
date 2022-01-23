@@ -1,5 +1,5 @@
-import {isResponse} from '../../javascript-utils/is-type';
-import {getResourceContentLength, getResourceUrlAndType} from './resource-utils';
+import {isResponse} from '../../javascript-utils/is-type.js';
+import {getResourceContentLength, getResourceUrlAndType} from './resource-utils.js';
 
 /**
  * Returns a Response object

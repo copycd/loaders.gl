@@ -1,8 +1,8 @@
 import type {LoaderWithParser, LoaderOptions, LoaderContext} from '@loaders.gl/loader-utils';
-import {isLoaderObject} from '../loader-utils/normalize-loader';
-import {getFetchFunction} from '../loader-utils/option-utils';
+import {isLoaderObject} from '../loader-utils/normalize-loader.js';
+import {getFetchFunction} from '../loader-utils/option-utils.js';
 
-import {parseInBatches} from './parse-in-batches';
+import {parseInBatches} from './parse-in-batches.js';
 
 type FileType = string | File | Blob | Response | (string | File | Blob | Response)[] | FileList;
 

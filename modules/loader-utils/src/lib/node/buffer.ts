@@ -1,7 +1,7 @@
 // Isolates Buffer references to ensure they are only bundled under Node.js (avoids big webpack polyfill)
 // this file is not visible to webpack (it is excluded in the package.json "browser" field).
 
-import {assert} from '../env-utils/assert';
+import {assert} from '../env-utils/assert.js';
 
 /**
  * Convert Buffer to ArrayBuffer

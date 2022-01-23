@@ -1,4 +1,4 @@
-import {setGlobalOptions} from '../loader-utils/option-utils';
+import {setGlobalOptions} from '../loader-utils/option-utils.js';
 
 /**
  * Set global loader options

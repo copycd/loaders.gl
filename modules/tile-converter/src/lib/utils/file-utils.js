@@ -1,6 +1,6 @@
 import {promises as fs} from 'fs';
 import {isAbsolute, join} from 'path';
-import {compressFileWithGzip} from './compress-util';
+import {compressFileWithGzip} from './compress-util.js';
 
 export async function writeFile(path, data, fileName = 'index.json') {
   await fs.mkdir(path, {recursive: true});

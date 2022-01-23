@@ -3,8 +3,8 @@
 // Copyright (c) 2017 Tarek Sherif, The MIT License (MIT)
 
 import type {TextureLevel} from '@loaders.gl/schema';
-import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions';
-import {extractMipmapImages} from '../utils/extract-mipmap-images';
+import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions.js';
+import {extractMipmapImages} from '../utils/extract-mipmap-images.js';
 
 const PVR_CONSTANTS: Record<string, number> = {
   MAGIC_NUMBER: 0x03525650,

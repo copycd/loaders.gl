@@ -8,15 +8,15 @@ import type {
   GLTFAccessor,
   GLTFMeshPrimitive,
   GLTF_KHR_draco_mesh_compression
-} from '../types/gltf-types';
-import type {GLTFLoaderOptions} from '../../gltf-loader';
+} from '../types/gltf-types.js';
+import type {GLTFLoaderOptions} from '../../gltf-loader.js';
 
 import type {LoaderContext} from '@loaders.gl/loader-utils';
 import {DracoLoader} from '@loaders.gl/draco';
 import {DracoLoaderOptions, DracoMesh} from '@loaders.gl/draco';
 import {sliceArrayBuffer} from '@loaders.gl/loader-utils';
-import {default as Scenegraph} from '../api/gltf-scenegraph';
-import {getGLTFAccessors, getGLTFAccessor} from '../gltf-utils/gltf-attribute-utils';
+import {default as Scenegraph} from '../api/gltf-scenegraph.js';
+import {getGLTFAccessors, getGLTFAccessor} from '../gltf-utils/gltf-attribute-utils.js';
 
 const KHR_DRACO_MESH_COMPRESSION = 'KHR_draco_mesh_compression';
 

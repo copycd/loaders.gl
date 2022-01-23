@@ -1,25 +1,25 @@
 /* eslint-disable dot-notation */
 import {DOMParser} from '@xmldom/xmldom';
-import {isBrowser, global} from './utils/globals';
+import {isBrowser, global} from './utils/globals.js';
 
-import {TextDecoder, TextEncoder} from './lib/encoding';
-import {allSettled} from './promise/all-settled';
+import {TextDecoder, TextEncoder} from './lib/encoding.js';
+import {allSettled} from './promise/all-settled.js';
 
 // Node specific
-import * as base64 from './node/buffer/btoa.node';
+import * as base64 from './node/buffer/btoa.node.js';
 
-import HeadersNode from './node/fetch/headers.node';
-import ResponseNode from './node/fetch/response.node';
-import fetchNode from './node/fetch/fetch.node';
+import HeadersNode from './node/fetch/headers.node.js';
+import ResponseNode from './node/fetch/response.node.js';
+import fetchNode from './node/fetch/fetch.node.js';
 
-import {encodeImageNode} from './node/images/encode-image.node';
-import {parseImageNode} from './node/images/parse-image.node';
+import {encodeImageNode} from './node/images/encode-image.node.js';
+import {parseImageNode} from './node/images/parse-image.node.js';
 
-export {ReadableStreamPolyfill} from './node/file/readable-stream';
-export {BlobPolyfill} from './node/file/blob';
-export {FileReaderPolyfill} from './node/file/file-reader';
-export {FilePolyfill} from './node/file/file';
-export {installFilePolyfills} from './node/file/install-file-polyfills';
+export {ReadableStreamPolyfill} from './node/file/readable-stream.js';
+export {BlobPolyfill} from './node/file/blob.js';
+export {FileReaderPolyfill} from './node/file/file-reader.js';
+export {FilePolyfill} from './node/file/file.js';
+export {installFilePolyfills} from './node/file/install-file-polyfills.js';
 
 // POLYFILLS: TextEncoder, TextDecoder
 // - Recent Node versions have these classes but virtually no encodings unless special build.

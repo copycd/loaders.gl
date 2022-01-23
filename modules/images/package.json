@@ -2,6 +2,7 @@
   "name": "@loaders.gl/images",
   "version": "4.0.0-alpha.5",
   "description": "Framework-independent loaders and writers for images (PNG, JPG, ...)",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

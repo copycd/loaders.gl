@@ -2,8 +2,8 @@
  * Forked from @gozala's web-blob under MIT license
  * @see https://github.com/Gozala/web-blob
  */
-import {ReadableStreamPolyfill} from './readable-stream';
-import {BlobStreamController} from './blob-stream-controller';
+import {ReadableStreamPolyfill} from './readable-stream.js';
+import {BlobStreamController} from './blob-stream-controller.js';
 
 /**
  * Blob stream is a `ReadableStream` extension optimized to have minimal

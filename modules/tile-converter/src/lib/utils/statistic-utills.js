@@ -1,6 +1,6 @@
 import {join} from 'path';
 import {promises as fs} from 'fs';
-import {getAbsoluteFilePath} from './file-utils';
+import {getAbsoluteFilePath} from './file-utils.js';
 
 export function timeConverter(time) {
   const nanoSecondsInMillisecond = 1e6;

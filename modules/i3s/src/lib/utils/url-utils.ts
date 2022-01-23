@@ -1,4 +1,4 @@
-import {Node3DIndexDocument} from '../../types';
+import {Node3DIndexDocument} from '../../types.js';
 
 /**
  * Generates url with token if it is exists.

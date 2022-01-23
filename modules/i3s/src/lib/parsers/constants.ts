@@ -1,5 +1,5 @@
 import GL from '@luma.gl/constants';
-import {DATA_TYPE} from '../../types';
+import {DATA_TYPE} from '../../types.js';
 
 export function getConstructorForDataFormat(dataType: string) {
   switch (dataType) {

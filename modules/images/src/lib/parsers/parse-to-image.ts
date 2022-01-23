@@ -1,5 +1,5 @@
-import type {ImageLoaderOptions} from '../../image-loader';
-import {getBlobOrSVGDataUrl} from './svg-utils';
+import type {ImageLoaderOptions} from '../../image-loader.js';
+import {getBlobOrSVGDataUrl} from './svg-utils.js';
 
 // Parses html image from array buffer
 export default async function parseToImage(

@@ -1,7 +1,7 @@
 import type {TextureLevel} from '@loaders.gl/schema';
-import {isKTX, parseKTX} from './parse-ktx';
-import {isDDS, parseDDS} from './parse-dds';
-import {isPVR, parsePVR} from './parse-pvr';
+import {isKTX, parseKTX} from './parse-ktx.js';
+import {isDDS, parseDDS} from './parse-dds.js';
+import {isPVR, parsePVR} from './parse-pvr.js';
 
 /**
  * Deduces format and parses compressed texture loaded in ArrayBuffer

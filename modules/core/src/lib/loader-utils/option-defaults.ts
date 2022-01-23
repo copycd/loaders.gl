@@ -1,5 +1,5 @@
 import type {LoaderOptions} from '@loaders.gl/loader-utils';
-import {ConsoleLog} from './loggers';
+import {ConsoleLog} from './loggers.js';
 
 export const DEFAULT_LOADER_OPTIONS: LoaderOptions = {
   // baseUri

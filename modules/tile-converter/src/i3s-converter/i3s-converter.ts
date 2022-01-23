@@ -27,34 +27,34 @@ import process from 'process';
 import transform from 'json-map-transform';
 import md5 from 'md5';
 
-import NodePages from './helpers/node-pages';
-import {writeFile, removeDir, writeFileForSlpk} from '../lib/utils/file-utils';
+import NodePages from './helpers/node-pages.js';
+import {writeFile, removeDir, writeFileForSlpk} from '../lib/utils/file-utils.js';
 import {
   compressWithChildProcess
   // generateHash128FromZip,
   // addFileToZip
-} from '../lib/utils/compress-util';
-import {calculateFilesSize, timeConverter} from '../lib/utils/statistic-utills';
-import convertB3dmToI3sGeometry from './helpers/geometry-converter';
+} from '../lib/utils/compress-util.js';
+import {calculateFilesSize, timeConverter} from '../lib/utils/statistic-utills.js';
+import convertB3dmToI3sGeometry from './helpers/geometry-converter.js';
 import {
   createBoundingVolumes,
   convertCommonToI3SExtentCoordinate
-} from './helpers/coordinate-converter';
-import {createSceneServerPath} from './helpers/create-scene-server-path';
-import {convertGeometricErrorToScreenThreshold} from '../lib/utils/lod-conversion-utils';
-import {PGMLoader} from '../pgm-loader';
+} from './helpers/coordinate-converter.js';
+import {createSceneServerPath} from './helpers/create-scene-server-path.js';
+import {convertGeometricErrorToScreenThreshold} from '../lib/utils/lod-conversion-utils.js';
+import {PGMLoader} from '../pgm-loader.js';
 
-import {LAYERS as layersTemplate} from './json-templates/layers';
-import {NODE as nodeTemplate} from './json-templates/node';
-import {SHARED_RESOURCES as sharedResourcesTemplate} from './json-templates/shared-resources';
-import {validateNodeBoundingVolumes} from './helpers/node-debug';
+import {LAYERS as layersTemplate} from './json-templates/layers.js';
+import {NODE as nodeTemplate} from './json-templates/node.js';
+import {SHARED_RESOURCES as sharedResourcesTemplate} from './json-templates/shared-resources.js';
+import {validateNodeBoundingVolumes} from './helpers/node-debug.js';
 import TileHeader from '@loaders.gl/tiles/src/tileset/tile-3d';
 import {KTX2BasisUniversalTextureWriter} from '@loaders.gl/textures';
 import {LoaderWithParser} from '@loaders.gl/loader-utils';
 import {I3SMaterialDefinition, TextureSetDefinitionFormats} from '@loaders.gl/i3s/src/types';
 import {ImageWriter} from '@loaders.gl/images';
 import {GLTFImagePostprocessed} from '@loaders.gl/gltf';
-import {I3SConvertedResources} from './types';
+import {I3SConvertedResources} from './types.js';
 
 const ION_DEFAULT_TOKEN =
   process.env.IonToken || // eslint-disable-line

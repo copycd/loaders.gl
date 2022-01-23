@@ -1,8 +1,8 @@
 import {assert} from '@loaders.gl/loader-utils';
 import {ImageLoader, getImageSize} from '@loaders.gl/images';
-import type {GetUrl, UrlOptions} from './texture-api-types';
-import {generateUrl} from './generate-url';
-import {deepLoad, shallowLoad} from './deep-load';
+import type {GetUrl, UrlOptions} from './texture-api-types.js';
+import {generateUrl} from './generate-url.js';
+import {deepLoad, shallowLoad} from './deep-load.js';
 
 export async function loadImageTexture(getUrl: string | GetUrl, options = {}): Promise<any> {
   const imageUrls = await getImageUrls(getUrl, options);

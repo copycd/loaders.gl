@@ -7,15 +7,15 @@ import type {
   LoaderOptions
 } from '@loaders.gl/loader-utils';
 import {assert, concatenateArrayBuffersAsync} from '@loaders.gl/loader-utils';
-import {isLoaderObject} from '../loader-utils/normalize-loader';
-import {normalizeOptions} from '../loader-utils/option-utils';
-import {getLoaderContext} from '../loader-utils/loader-context';
-import {getAsyncIterableFromData} from '../loader-utils/get-data';
-import {getResourceUrlAndType} from '../utils/resource-utils';
-import {selectLoader} from './select-loader';
+import {isLoaderObject} from '../loader-utils/normalize-loader.js';
+import {normalizeOptions} from '../loader-utils/option-utils.js';
+import {getLoaderContext} from '../loader-utils/loader-context.js';
+import {getAsyncIterableFromData} from '../loader-utils/get-data.js';
+import {getResourceUrlAndType} from '../utils/resource-utils.js';
+import {selectLoader} from './select-loader.js';
 
 // Ensure `parse` is available in context if loader falls back to `parse`
-import {parse} from './parse';
+import {parse} from './parse.js';
 
 /**
  * Parses `data` using a specified loader

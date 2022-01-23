@@ -4,11 +4,11 @@ import type {
   WorkerContext,
   WorkerMessageType,
   WorkerMessagePayload
-} from '../../types';
-import type WorkerJob from '../worker-farm/worker-job';
-import WorkerFarm from '../worker-farm/worker-farm';
-import {removeNontransferableOptions} from '../worker-utils/remove-nontransferable-options';
-import {getWorkerURL, getWorkerName} from './get-worker-url';
+} from '../../types.js';
+import type WorkerJob from '../worker-farm/worker-job.js';
+import WorkerFarm from '../worker-farm/worker-farm.js';
+import {removeNontransferableOptions} from '../worker-utils/remove-nontransferable-options.js';
+import {getWorkerURL, getWorkerName} from './get-worker-url.js';
 
 type ProcessOnWorkerOptions = WorkerOptions & {
   jobName?: string;

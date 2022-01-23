@@ -1,5 +1,5 @@
 import transform from 'json-map-transform';
-import {STORE} from './store';
+import {STORE} from './store.js';
 
 const PLAIN_GEOMETRY_DEFINITION = () => ({
   offset: 8,

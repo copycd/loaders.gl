@@ -1,5 +1,5 @@
 import type {Loader} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
+import {VERSION} from './lib/utils/version.js';
 
 /**
  * Worker loader for the Crunch compressed texture container format

@@ -1,8 +1,8 @@
 import type {LoaderWithParser, LoaderOptions} from '@loaders.gl/loader-utils';
-import type {GLB} from './lib/types/glb-types';
-import type {GLBParseOptions} from './lib/parsers/parse-glb';
-import {VERSION} from './lib/utils/version';
-import parseGLBSync from './lib/parsers/parse-glb';
+import type {GLB} from './lib/types/glb-types.js';
+import type {GLBParseOptions} from './lib/parsers/parse-glb.js';
+import {VERSION} from './lib/utils/version.js';
+import parseGLBSync from './lib/parsers/parse-glb.js';
 
 export type GLBLoaderOptions = LoaderOptions & {
   glb?: GLBParseOptions;

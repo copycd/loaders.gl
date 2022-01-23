@@ -1,5 +1,5 @@
-import ManagedArray from '../../utils/managed-array';
-import {TILE_REFINEMENT} from '../../constants';
+import ManagedArray from '../../utils/managed-array.js';
+import {TILE_REFINEMENT} from '../../constants.js';
 
 export type TilesetTraverserProps = {
   loadSiblings?: boolean;

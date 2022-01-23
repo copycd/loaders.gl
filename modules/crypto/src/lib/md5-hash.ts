@@ -1,7 +1,7 @@
 // Fork of https://github.com/briantbutton/md5-wasm under MIT license
-import {Hash} from './hash';
-import md5WASM from './algorithms/md5-wasm';
-import {hexToBase64} from './utils/digest-utils';
+import {Hash} from './hash.js';
+import md5WASM from './algorithms/md5-wasm.js';
+import {hexToBase64} from './utils/digest-utils.js';
 
 /**
  * A transform that calculates MD5 hashes, passing data through

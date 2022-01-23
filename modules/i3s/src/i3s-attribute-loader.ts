@@ -1,7 +1,7 @@
 import type {LoaderWithParser} from '@loaders.gl/loader-utils';
 import {load} from '@loaders.gl/core';
-import {parseI3STileAttribute} from './lib/parsers/parse-i3s-attribute';
-import {getUrlWithToken} from './lib/utils/url-utils';
+import {parseI3STileAttribute} from './lib/parsers/parse-i3s-attribute.js';
+import {getUrlWithToken} from './lib/utils/url-utils.js';
 
 // __VERSION__ is injected by babel-plugin-version-inline
 // @ts-ignore TS2304: Cannot find name '__VERSION__'.

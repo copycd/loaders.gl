@@ -1,5 +1,5 @@
 import type {ImageDataType} from '@loaders.gl/images';
-import {loadBasisEncoderModule} from '../parsers/basis-module-loader';
+import {loadBasisEncoderModule} from '../parsers/basis-module-loader.js';
 
 /**
  * Encodes image to Basis Universal Supercompressed GPU Texture.

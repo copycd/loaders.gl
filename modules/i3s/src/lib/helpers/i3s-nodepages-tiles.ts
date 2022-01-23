@@ -1,8 +1,8 @@
 import {load} from '@loaders.gl/core';
 import {getSupportedGPUTextureFormats, selectSupportedBasisFormat} from '@loaders.gl/textures';
-import {I3SNodePageLoader} from '../../i3s-node-page-loader';
-import {normalizeTileNonUrlData} from '../parsers/parse-i3s';
-import {getUrlWithToken, generateTilesetAttributeUrls} from '../utils/url-utils';
+import {I3SNodePageLoader} from '../../i3s-node-page-loader.js';
+import {normalizeTileNonUrlData} from '../parsers/parse-i3s.js';
+import {getUrlWithToken, generateTilesetAttributeUrls} from '../utils/url-utils.js';
 import type {LoaderOptions} from '@loaders.gl/loader-utils';
 import {
   I3STilesetHeader,
@@ -15,7 +15,7 @@ import {
   I3STextureFormat,
   MeshGeometry,
   I3STileHeader
-} from '../../types';
+} from '../../types.js';
 
 /**
  * class I3SNodePagesTiles - loads nodePages and form i3s tiles from them

@@ -1,5 +1,5 @@
 import getPixels from 'get-pixels';
-import {assert} from '../../utils/assert';
+import {assert} from '../../utils/assert.js';
 import util from 'util';
 
 // Note: These types are also defined in @loaders.gl/images and need to be kept in sync

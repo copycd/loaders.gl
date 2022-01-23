@@ -1,5 +1,5 @@
-import {makeAttributeIterator} from '../iterators/attribute-iterator';
-import {assert} from '../utils/assert';
+import {makeAttributeIterator} from '../iterators/attribute-iterator.js';
+import {assert} from '../utils/assert.js';
 
 /**
  * Type for Bounding Box computing

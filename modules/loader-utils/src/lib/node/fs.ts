@@ -1,7 +1,7 @@
 // fs wrapper (promisified fs + avoids bundling fs in browsers)
 import fs from 'fs';
-import {toArrayBuffer} from './buffer';
-import {promisify} from './util';
+import {toArrayBuffer} from './buffer.js';
+import {promisify} from './util.js';
 
 export type {Stats} from 'fs';
 

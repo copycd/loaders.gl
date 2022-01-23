@@ -13,7 +13,7 @@ import type {
   MetadataQuerier,
   DracoInt32Array,
   draco_DataType
-} from '../draco3d/draco3d-types';
+} from '../draco3d/draco3d-types.js';
 
 // Parsed data types (output)
 import type {
@@ -23,10 +23,10 @@ import type {
   DracoMetadataEntry,
   DracoQuantizationTransform,
   DracoOctahedronTransform
-} from './draco-types';
+} from './draco-types.js';
 
 import {getMeshBoundingBox} from '@loaders.gl/schema';
-import {getDracoSchema} from './utils/get-draco-schema';
+import {getDracoSchema} from './utils/get-draco-schema.js';
 
 /**
  * @param topology - How triangle indices should be generated (mesh only)

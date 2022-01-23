@@ -1,7 +1,7 @@
 /* eslint-disable camelcase, max-statements */
 // https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#glb-file-format-specification
 // https://github.com/KhronosGroup/glTF/tree/master/extensions/1.0/Khronos/KHR_binary_glTF
-import type {GLB} from '../types/glb-types';
+import type {GLB} from '../types/glb-types.js';
 import {padToNBytes, assert} from '@loaders.gl/loader-utils';
 
 export type GLBParseOptions = {

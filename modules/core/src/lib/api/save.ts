@@ -1,6 +1,6 @@
 import type {Writer, WriterOptions} from '@loaders.gl/loader-utils';
-import {encode, encodeSync} from './encode';
-import {writeFile, writeFileSync} from '../fetch/write-file';
+import {encode, encodeSync} from './encode.js';
+import {writeFile, writeFileSync} from '../fetch/write-file.js';
 
 export async function save(data, url, writer: Writer, options: WriterOptions) {
   const encodedData = await encode(data, writer, options);

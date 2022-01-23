@@ -1,8 +1,8 @@
 // loaders.gl, MIT license
 import {ImageLoader} from '@loaders.gl/images';
-import type {GetUrl} from './texture-api-types';
-import {getImageUrls} from './load-image';
-import {deepLoad} from './deep-load';
+import type {GetUrl} from './texture-api-types.js';
+import {getImageUrls} from './load-image.js';
+import {deepLoad} from './deep-load.js';
 
 export async function loadImageTextureArray(
   count: number,

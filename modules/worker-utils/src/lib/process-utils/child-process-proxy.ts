@@ -3,7 +3,7 @@
 // for bundlers targeting browser environments. Access imports & types
 // through the `ChildProcess` object (e.g. `ChildProcess.spawn`, `ChildProcess.ChildProcess`).
 import * as ChildProcess from 'child_process';
-import {getAvailablePort} from './process-utils';
+import {getAvailablePort} from './process-utils.js';
 
 export type ChildProcessProxyProps = {
   command: string;

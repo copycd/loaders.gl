@@ -3,7 +3,7 @@ import http from 'http';
 import https from 'https';
 import zlib from 'zlib';
 
-import {toArrayBuffer} from './decode-data-uri.node';
+import {toArrayBuffer} from './decode-data-uri.node.js';
 
 function isRequestURL(url: string): boolean {
   return url.startsWith('http:') || url.startsWith('https:');

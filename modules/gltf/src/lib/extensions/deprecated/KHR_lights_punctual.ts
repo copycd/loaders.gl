@@ -1,10 +1,10 @@
 // GLTF EXTENSION: KHR_lights_punctual
 // https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_lights_punctual
 
-import type {GLTF} from '../../types/gltf-types';
+import type {GLTF} from '../../types/gltf-types.js';
 
-import {assert} from '../../utils/assert';
-import GLTFScenegraph from '../../api/gltf-scenegraph';
+import {assert} from '../../utils/assert.js';
+import GLTFScenegraph from '../../api/gltf-scenegraph.js';
 
 const KHR_LIGHTS_PUNCTUAL = 'KHR_lights_punctual';
 

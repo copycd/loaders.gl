@@ -1,5 +1,5 @@
 // Image loading/saving for browser and Node.js
-import {getImageSize} from '../category-api/parsed-image-api';
+import {getImageSize} from '../category-api/parsed-image-api.js';
 
 // @ts-ignore TS2339: Property does not exist on type
 const {_encodeImageNode} = globalThis;

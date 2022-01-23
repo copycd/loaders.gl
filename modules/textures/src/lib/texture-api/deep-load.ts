@@ -1,5 +1,5 @@
 // loaders.gl, MIT license
-import {asyncDeepMap} from './async-deep-map';
+import {asyncDeepMap} from './async-deep-map.js';
 
 export type LoadOptions = Record<string, any>;
 export type Load = (data: ArrayBuffer, options: Record<string, any>) => Promise<any>;

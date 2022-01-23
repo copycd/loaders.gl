@@ -1,7 +1,7 @@
 import type {LoaderOptions, LoaderWithParser} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
-import parseImage from './lib/parsers/parse-image';
-import {getBinaryImageMetadata} from './lib/category-api/binary-image-api';
+import {VERSION} from './lib/utils/version.js';
+import parseImage from './lib/parsers/parse-image.js';
+import {getBinaryImageMetadata} from './lib/category-api/binary-image-api.js';
 
 const EXTENSIONS = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'bmp', 'ico', 'svg'];
 const MIME_TYPES = [

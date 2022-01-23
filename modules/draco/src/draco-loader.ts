@@ -1,7 +1,7 @@
 import type {Loader, LoaderOptions} from '@loaders.gl/loader-utils';
-import type {DracoParseOptions} from './lib/draco-parser';
+import type {DracoParseOptions} from './lib/draco-parser.js';
 // import type {DracoMeshData} from './types';
-import {VERSION} from './lib/utils/version';
+import {VERSION} from './lib/utils/version.js';
 
 export type DracoLoaderOptions = LoaderOptions & {
   draco?: DracoParseOptions & {

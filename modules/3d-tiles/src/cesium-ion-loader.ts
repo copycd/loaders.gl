@@ -1,6 +1,6 @@
 import type {LoaderWithParser} from '@loaders.gl/loader-utils';
-import {Tiles3DLoader} from './tiles-3d-loader';
-import {getIonTilesetMetadata} from './lib/ion/ion';
+import {Tiles3DLoader} from './tiles-3d-loader.js';
+import {getIonTilesetMetadata} from './lib/ion/ion.js';
 
 async function preload(url, options = {}) {
   options = options['cesium-ion'] || {};

@@ -1,6 +1,6 @@
 // loaders.gl, MIT license
 import {resolvePath} from '@loaders.gl/loader-utils';
-import type {GetUrl, UrlOptions} from './texture-api-types';
+import type {GetUrl, UrlOptions} from './texture-api-types.js';
 
 // Generate a url by calling getUrl with mix of options, applying options.baseUrl
 export function generateUrl(

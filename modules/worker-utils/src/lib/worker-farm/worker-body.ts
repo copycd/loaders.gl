@@ -1,5 +1,5 @@
-import type {WorkerMessageData, WorkerMessageType, WorkerMessagePayload} from '../../types';
-import {getTransferList} from '../worker-utils/get-transfer-list';
+import type {WorkerMessageData, WorkerMessageType, WorkerMessagePayload} from '../../types.js';
+import {getTransferList} from '../worker-utils/get-transfer-list.js';
 
 const onMessageWrapperMap = new Map();
 

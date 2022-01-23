@@ -1,5 +1,5 @@
-import {TypedArray} from '../types';
-import {GL_TYPE as GL} from '../constants';
+import {TypedArray} from '../types.js';
+import {GL_TYPE as GL} from '../constants.js';
 
 const GL_TYPE_TO_ARRAY_TYPE = {
   [GL.DOUBLE]: Float64Array,

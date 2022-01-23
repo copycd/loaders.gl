@@ -1,8 +1,8 @@
 // loaders.gl, MIT license
 import {ImageLoader} from '@loaders.gl/images';
-import type {GetUrl, UrlOptions} from './texture-api-types';
-import {getImageUrls} from './load-image';
-import {deepLoad} from './deep-load';
+import type {GetUrl, UrlOptions} from './texture-api-types.js';
+import {getImageUrls} from './load-image.js';
+import {deepLoad} from './deep-load.js';
 
 // Returned map will be have keys corresponding to GL cubemap constants
 const GL_TEXTURE_CUBE_MAP_POSITIVE_X = 0x8515;

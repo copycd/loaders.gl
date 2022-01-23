@@ -1,9 +1,9 @@
 import type {LoaderContext, LoaderOptions, Loader} from '@loaders.gl/loader-utils';
 import {compareArrayBuffers, path} from '@loaders.gl/loader-utils';
-import {normalizeLoader} from '../loader-utils/normalize-loader';
-import {getResourceUrlAndType} from '../utils/resource-utils';
-import {getRegisteredLoaders} from './register-loaders';
-import {isBlob} from '../../javascript-utils/is-type';
+import {normalizeLoader} from '../loader-utils/normalize-loader.js';
+import {getResourceUrlAndType} from '../utils/resource-utils.js';
+import {getRegisteredLoaders} from './register-loaders.js';
+import {isBlob} from '../../javascript-utils/is-type.js';
 
 const EXT_PATTERN = /\.([^.]+)$/;
 

@@ -1,8 +1,8 @@
 import {assert} from '@loaders.gl/loader-utils';
-import parseImage from '../parsers/parse-image';
-import {getImageSize} from '../category-api/parsed-image-api';
-import {generateUrl} from './generate-url';
-import {deepLoad, shallowLoad} from './deep-load';
+import parseImage from '../parsers/parse-image.js';
+import {getImageSize} from '../category-api/parsed-image-api.js';
+import {generateUrl} from './generate-url.js';
+import {deepLoad, shallowLoad} from './deep-load.js';
 
 export async function loadImage(getUrl, options = {}) {
   const imageUrls = await getImageUrls(getUrl, options);

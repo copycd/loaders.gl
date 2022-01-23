@@ -1,5 +1,5 @@
 import type {LoaderWithParser, LoaderOptions, LoaderContext} from '@loaders.gl/loader-utils';
-import {parseI3STileContent} from './lib/parsers/parse-i3s-tile-content';
+import {parseI3STileContent} from './lib/parsers/parse-i3s-tile-content.js';
 
 // __VERSION__ is injected by babel-plugin-version-inline
 // @ts-ignore TS2304: Cannot find name '__VERSION__'.

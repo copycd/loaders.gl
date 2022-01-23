@@ -2,6 +2,7 @@
   "name": "@loaders.gl/core",
   "version": "4.0.0-alpha.5",
   "description": "Framework-independent loaders for 3D graphics formats",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

@@ -6,12 +6,12 @@ import type {
   LoaderOptions
 } from '@loaders.gl/loader-utils';
 import {assert} from '@loaders.gl/loader-utils';
-import {selectLoaderSync} from './select-loader';
-import {isLoaderObject} from '../loader-utils/normalize-loader';
-import {normalizeOptions} from '../loader-utils/option-utils';
-import {getArrayBufferOrStringFromDataSync} from '../loader-utils/get-data';
-import {getLoaderContext, getLoadersFromContext} from '../loader-utils/loader-context';
-import {getResourceUrlAndType} from '../utils/resource-utils';
+import {selectLoaderSync} from './select-loader.js';
+import {isLoaderObject} from '../loader-utils/normalize-loader.js';
+import {normalizeOptions} from '../loader-utils/option-utils.js';
+import {getArrayBufferOrStringFromDataSync} from '../loader-utils/get-data.js';
+import {getLoaderContext, getLoadersFromContext} from '../loader-utils/loader-context.js';
+import {getResourceUrlAndType} from '../utils/resource-utils.js';
 
 /**
  * Parses `data` synchronously using a specified loader

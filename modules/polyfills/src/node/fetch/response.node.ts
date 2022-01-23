@@ -1,6 +1,6 @@
-import {assert} from '../../utils/assert';
-import {decompressReadStream, concatenateReadStream} from './utils/stream-utils.node';
-import Headers from './headers.node';
+import {assert} from '../../utils/assert.js';
+import {decompressReadStream, concatenateReadStream} from './utils/stream-utils.node.js';
+import Headers from './headers.node.js';
 
 const isBoolean = (x) => typeof x === 'boolean';
 const isFunction = (x) => typeof x === 'function';

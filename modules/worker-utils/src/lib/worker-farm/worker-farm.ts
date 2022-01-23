@@ -1,5 +1,5 @@
-import WorkerPool from './worker-pool';
-import WorkerThread from './worker-thread';
+import WorkerPool from './worker-pool.js';
+import WorkerThread from './worker-thread.js';
 
 /**
  * @param maxConcurrency {number} - max count of workers

@@ -1,5 +1,5 @@
 import {Vector3, Matrix4} from '@math.gl/core';
-import {GeoidHeightModel} from '../../lib/geoid-height-model';
+import {GeoidHeightModel} from '../../lib/geoid-height-model.js';
 /**
  * Convert binary data from b3dm file to i3s resources
  *

@@ -2,6 +2,7 @@
   "name": "@loaders.gl/gltf",
   "version": "4.0.0-alpha.5",
   "description": "Framework-independent loader for the glTF format",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

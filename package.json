@@ -63,7 +63,10 @@
   },
   "pre-commit": "pre-commit",
   "pre-push": "pre-push",
-  "dependencies": {},
+  "dependencies": {
+    "@math.gl/geoid": "^3.5.6",
+    "json-map-transform": "^1.2.6"
+  },
   "resolutions_notes": [
     "Note: tape 4.12 and higher no longer compares 0 and -0 equally...",
     "Note: newer prettier breaks on typescript import type"

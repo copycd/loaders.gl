@@ -2,11 +2,11 @@
 // https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/EXT_TEXTURE_WEBP
 /* eslint-disable camelcase */
 
-import type {GLTF, GLTF_EXT_texture_webp} from '../types/gltf-types';
-import type {GLTFLoaderOptions} from '../../gltf-loader';
+import type {GLTF, GLTF_EXT_texture_webp} from '../types/gltf-types.js';
+import type {GLTFLoaderOptions} from '../../gltf-loader.js';
 
 import {_isImageFormatSupported} from '@loaders.gl/images';
-import GLTFScenegraph from '../api/gltf-scenegraph';
+import GLTFScenegraph from '../api/gltf-scenegraph.js';
 
 const EXT_TEXTURE_WEBP = 'EXT_texture_webp';
 

@@ -1,14 +1,14 @@
 // This file is derived from the Cesium code base under Apache 2 license
 // See LICENSE.md and https://github.com/AnalyticalGraphicsInc/cesium/blob/master/LICENSE.md
 
-import {TILE3D_TYPE} from '../constants';
-import {getMagicString} from './helpers/parse-utils';
+import {TILE3D_TYPE} from '../constants.js';
+import {getMagicString} from './helpers/parse-utils.js';
 
-import {parsePointCloud3DTile} from './parse-3d-tile-point-cloud';
-import {parseBatchedModel3DTile} from './parse-3d-tile-batched-model';
-import {parseInstancedModel3DTile} from './parse-3d-tile-instanced-model';
-import {parseComposite3DTile} from './parse-3d-tile-composite';
-import {parseGltf3DTile} from './parse-3d-tile-gltf';
+import {parsePointCloud3DTile} from './parse-3d-tile-point-cloud.js';
+import {parseBatchedModel3DTile} from './parse-3d-tile-batched-model.js';
+import {parseInstancedModel3DTile} from './parse-3d-tile-instanced-model.js';
+import {parseComposite3DTile} from './parse-3d-tile-composite.js';
+import {parseGltf3DTile} from './parse-3d-tile-gltf.js';
 
 // Extracts
 export async function parse3DTile(arrayBuffer, byteOffset = 0, options, context, tile = {}) {

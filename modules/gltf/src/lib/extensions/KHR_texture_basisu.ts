@@ -2,10 +2,10 @@
 // https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_texture_basisu
 /* eslint-disable camelcase */
 
-import type {GLTF, GLTF_KHR_texture_basisu} from '../types/gltf-types';
-import type {GLTFLoaderOptions} from '../../gltf-loader';
+import type {GLTF, GLTF_KHR_texture_basisu} from '../types/gltf-types.js';
+import type {GLTFLoaderOptions} from '../../gltf-loader.js';
 
-import GLTFScenegraph from '../api/gltf-scenegraph';
+import GLTFScenegraph from '../api/gltf-scenegraph.js';
 
 const KHR_TEXTURE_BASISU = 'KHR_texture_basisu';
 

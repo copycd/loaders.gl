@@ -1,4 +1,4 @@
-import * as node from '../node/buffer';
+import * as node from '../node/buffer.js';
 
 /**
  * Check for Node.js `Buffer` (without triggering bundler to include Buffer polyfill on browser)

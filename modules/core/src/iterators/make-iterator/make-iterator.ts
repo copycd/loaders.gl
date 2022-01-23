@@ -1,11 +1,11 @@
 import type {ReadStream} from 'fs';
 
-import {makeStringIterator} from './make-string-iterator';
-import {makeArrayBufferIterator} from './make-array-buffer-iterator';
-import {makeBlobIterator} from './make-blob-iterator';
-import type {StreamIteratorOptions} from './make-stream-iterator';
-import {makeStreamIterator} from './make-stream-iterator';
-import {isBlob, isReadableStream, isResponse} from '../../javascript-utils/is-type';
+import {makeStringIterator} from './make-string-iterator.js';
+import {makeArrayBufferIterator} from './make-array-buffer-iterator.js';
+import {makeBlobIterator} from './make-blob-iterator.js';
+import type {StreamIteratorOptions} from './make-stream-iterator.js';
+import {makeStreamIterator} from './make-stream-iterator.js';
+import {isBlob, isReadableStream, isResponse} from '../../javascript-utils/is-type.js';
 
 /**
  * @param [options.chunkSize]

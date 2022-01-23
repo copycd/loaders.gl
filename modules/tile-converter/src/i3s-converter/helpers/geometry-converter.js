@@ -5,8 +5,8 @@ import {DracoWriter} from '@loaders.gl/draco';
 import {encode, assert} from '@loaders.gl/core';
 import {concatenateArrayBuffers, concatenateTypedArrays} from '@loaders.gl/loader-utils';
 import md5 from 'md5';
-import {generateAttributes} from './geometry-attributes';
-import {createBoundingVolumesFromGeometry} from './coordinate-converter';
+import {generateAttributes} from './geometry-attributes.js';
+import {createBoundingVolumesFromGeometry} from './coordinate-converter.js';
 
 // Spec - https://github.com/Esri/i3s-spec/blob/master/docs/1.7/pbrMetallicRoughness.cmn.md
 const DEFAULT_ROUGHNESS_FACTOR = 1;

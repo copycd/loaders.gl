@@ -9,14 +9,14 @@ import {I3SLoader, I3SAttributeLoader, COORDINATE_SYSTEM} from '@loaders.gl/i3s'
 import {Tileset3D, Tile3D} from '@loaders.gl/tiles';
 import {Geoid} from '@math.gl/geoid';
 
-import {PGMLoader} from '../pgm-loader';
-import {i3sObbTo3dTilesObb} from './helpers/i3s-obb-to-3d-tiles-obb';
-import {convertScreenThresholdToGeometricError} from '../lib/utils/lod-conversion-utils';
-import {writeFile, removeDir} from '../lib/utils/file-utils';
-import {calculateFilesSize, timeConverter} from '../lib/utils/statistic-utills';
-import {TILESET as tilesetTemplate} from './json-templates/tileset';
-import B3dmConverter from './helpers/b3dm-converter';
-import {createObbFromMbs} from '../i3s-converter/helpers/coordinate-converter';
+import {PGMLoader} from '../pgm-loader.js';
+import {i3sObbTo3dTilesObb} from './helpers/i3s-obb-to-3d-tiles-obb.js';
+import {convertScreenThresholdToGeometricError} from '../lib/utils/lod-conversion-utils.js';
+import {writeFile, removeDir} from '../lib/utils/file-utils.js';
+import {calculateFilesSize, timeConverter} from '../lib/utils/statistic-utills.js';
+import {TILESET as tilesetTemplate} from './json-templates/tileset.js';
+import B3dmConverter from './helpers/b3dm-converter.js';
+import {createObbFromMbs} from '../i3s-converter/helpers/coordinate-converter.js';
 
 const I3S = 'I3S';
 

@@ -1,6 +1,6 @@
-import {assert} from '../env-utils/assert';
-import {getLoadableWorkerURL} from '../worker-utils/get-loadable-worker-url';
-import {getTransferList} from '../worker-utils/get-transfer-list';
+import {assert} from '../env-utils/assert.js';
+import {getLoadableWorkerURL} from '../worker-utils/get-loadable-worker-url.js';
+import {getTransferList} from '../worker-utils/get-transfer-list.js';
 
 const NOOP = () => {};
 

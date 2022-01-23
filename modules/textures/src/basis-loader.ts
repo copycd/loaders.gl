@@ -1,6 +1,6 @@
 import type {Loader, LoaderWithParser} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
-import parseBasis from './lib/parsers/parse-basis';
+import {VERSION} from './lib/utils/version.js';
+import parseBasis from './lib/parsers/parse-basis.js';
 
 /**
  * Worker loader for Basis super compressed textures

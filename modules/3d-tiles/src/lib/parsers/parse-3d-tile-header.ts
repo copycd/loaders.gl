@@ -1,8 +1,8 @@
-import {Tile3DSubtreeLoader} from '../../tile-3d-subtree-loader';
+import {Tile3DSubtreeLoader} from '../../tile-3d-subtree-loader.js';
 import {load} from '@loaders.gl/core';
 import {Tileset3D, LOD_METRIC_TYPE, TILE_REFINEMENT, TILE_TYPE} from '@loaders.gl/tiles';
-import {Subtree} from '../../types';
-import {parseImplicitTiles, replaceContentUrlTemplate} from './helpers/parse-3d-implicit-tiles';
+import {Subtree} from '../../types.js';
+import {parseImplicitTiles, replaceContentUrlTemplate} from './helpers/parse-3d-implicit-tiles.js';
 
 function getTileType(tile) {
   if (!tile.contentUrl) {

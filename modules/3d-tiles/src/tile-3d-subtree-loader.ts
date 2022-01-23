@@ -1,6 +1,6 @@
 import type {LoaderWithParser} from '@loaders.gl/loader-utils';
-import parse3DTilesSubtree from './lib/parsers/helpers/parse-3d-tile-subtree';
-import {VERSION} from './lib/utils/version';
+import parse3DTilesSubtree from './lib/parsers/helpers/parse-3d-tile-subtree.js';
+import {VERSION} from './lib/utils/version.js';
 
 /**
  * Loader for 3D Tiles Subtree

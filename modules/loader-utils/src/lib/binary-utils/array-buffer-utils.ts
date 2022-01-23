@@ -1,5 +1,5 @@
 import {TypedArray} from '../../types';
-import {isBuffer, bufferToArrayBuffer} from './buffer-utils';
+import {isBuffer, bufferToArrayBuffer} from './buffer-utils.js';
 
 /**
  * Convert an object to an array buffer

@@ -1,6 +1,6 @@
-import type {WorkerObject} from '../../types';
-import {assert} from '../env-utils/assert';
-import {VERSION} from '../env-utils/version';
+import type {WorkerObject} from '../../types.js';
+import {assert} from '../env-utils/assert.js';
+import {VERSION} from '../env-utils/version.js';
 
 /**
  * Check if worker is compatible with this library version

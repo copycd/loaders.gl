@@ -1,20 +1,20 @@
 /* eslint-disable camelcase */
-import {GLTF} from '../types/gltf-types';
-import type {GLTFLoaderOptions} from '../../gltf-loader';
+import {GLTF} from '../types/gltf-types.js';
+import type {GLTFLoaderOptions} from '../../gltf-loader.js';
 
 // GLTF 1.0 extensions (decode only)
 // import * as KHR_binary_gltf from './KHR_draco_mesh_compression';
 
 // GLTF 2.0 Khronos extensions (decode/encode)
-import * as EXT_meshopt_compression from '../extensions/EXT_meshopt_compression';
-import * as EXT_texture_webp from '../extensions/EXT_texture_webp';
-import * as KHR_texture_basisu from '../extensions/KHR_texture_basisu';
-import * as KHR_draco_mesh_compression from '../extensions/KHR_draco_mesh_compression';
+import * as EXT_meshopt_compression from '../extensions/EXT_meshopt_compression.js';
+import * as EXT_texture_webp from '../extensions/EXT_texture_webp.js';
+import * as KHR_texture_basisu from '../extensions/KHR_texture_basisu.js';
+import * as KHR_draco_mesh_compression from '../extensions/KHR_draco_mesh_compression.js';
 
 // Deprecated. These should be handled by rendering library (e.g. luma.gl), not the loader.
-import * as KHR_lights_punctual from '../extensions/deprecated/KHR_lights_punctual';
-import * as KHR_materials_unlit from '../extensions/deprecated/KHR_materials_unlit';
-import * as KHR_techniques_webgl from '../extensions/deprecated/KHR_techniques_webgl';
+import * as KHR_lights_punctual from '../extensions/deprecated/KHR_lights_punctual.js';
+import * as KHR_materials_unlit from '../extensions/deprecated/KHR_materials_unlit.js';
+import * as KHR_techniques_webgl from '../extensions/deprecated/KHR_techniques_webgl.js';
 
 // Vendor extensions
 

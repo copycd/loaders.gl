@@ -1,4 +1,4 @@
-import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions';
+import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions.js';
 
 const VULKAN_TO_WEBGL_FORMAT_MAP: Record<number, number> = {
   131: GL_EXTENSIONS_CONSTANTS.COMPRESSED_RGB_S3TC_DXT1_EXT,

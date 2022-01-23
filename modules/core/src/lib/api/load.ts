@@ -1,9 +1,9 @@
 import type {DataType, Loader, LoaderContext, LoaderOptions} from '@loaders.gl/loader-utils';
-import {isBlob} from '../../javascript-utils/is-type';
-import {isLoaderObject} from '../loader-utils/normalize-loader';
-import {getFetchFunction} from '../loader-utils/option-utils';
+import {isBlob} from '../../javascript-utils/is-type.js';
+import {isLoaderObject} from '../loader-utils/normalize-loader.js';
+import {getFetchFunction} from '../loader-utils/option-utils.js';
 
-import {parse} from './parse';
+import {parse} from './parse.js';
 
 /**
  * Parses `data` using a specified loader

@@ -3,8 +3,8 @@ import {v4 as uuidv4} from 'uuid';
 import transform from 'json-map-transform';
 import {join} from 'path';
 
-import {SCENE_SERVER as sceneServerTemplate} from '../json-templates/scene-server';
-import {writeFile} from '../../lib/utils/file-utils';
+import {SCENE_SERVER as sceneServerTemplate} from '../json-templates/scene-server.js';
+import {writeFile} from '../../lib/utils/file-utils.js';
 
 /**
  * Form and save sceneServer meta data into a file

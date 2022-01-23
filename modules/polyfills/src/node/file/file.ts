@@ -1,5 +1,5 @@
 // Forked from @gozala's web-file under MIT license https://github.com/Gozala/web-file
-import {BlobPolyfill} from './blob';
+import {BlobPolyfill} from './blob.js';
 
 /**
  * Forked from @gozala's web-file under MIT license

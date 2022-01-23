@@ -1,9 +1,9 @@
 import type {Writer} from '@loaders.gl/loader-utils';
-import type {DracoMesh} from './lib/draco-types';
-import type {DracoBuildOptions} from './lib/draco-builder';
-import DRACOBuilder from './lib/draco-builder';
-import {loadDracoEncoderModule} from './lib/draco-module-loader';
-import {VERSION} from './lib/utils/version';
+import type {DracoMesh} from './lib/draco-types.js';
+import type {DracoBuildOptions} from './lib/draco-builder.js';
+import DRACOBuilder from './lib/draco-builder.js';
+import {loadDracoEncoderModule} from './lib/draco-module-loader.js';
+import {VERSION} from './lib/utils/version.js';
 
 export type DracoWriterOptions = DracoBuildOptions & {};
 

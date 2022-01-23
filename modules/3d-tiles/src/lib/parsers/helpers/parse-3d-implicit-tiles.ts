@@ -1,5 +1,5 @@
-import type {Availability, BoundingVolume, Subtree} from '../../../types';
-import {Tile3DSubtreeLoader} from '../../../tile-3d-subtree-loader';
+import type {Availability, BoundingVolume, Subtree} from '../../../types.js';
+import {Tile3DSubtreeLoader} from '../../../tile-3d-subtree-loader.js';
 import {load} from '@loaders.gl/core';
 
 const QUADTREE_DEVISION_COUNT = 4;

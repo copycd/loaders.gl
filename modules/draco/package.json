@@ -2,6 +2,7 @@
   "name": "@loaders.gl/draco",
   "version": "4.0.0-alpha.5",
   "description": "Framework-independent loader and writer for Draco compressed meshes and point clouds",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

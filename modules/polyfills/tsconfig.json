@@ -5,6 +5,9 @@
   "compilerOptions": {
     "composite": true,
     "rootDir": "src",
+	"module": "es6",
+    "esModuleInterop": true,
+    "moduleResolution": "node",    
     "outDir": "dist"
   },
   "references": [

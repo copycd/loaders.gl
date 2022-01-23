@@ -4,9 +4,9 @@ import type {
   WorkerContext,
   Process,
   ProcessInBatches
-} from '../../types';
-import AsyncQueue from '../async-queue/async-queue';
-import WorkerBody from '../worker-farm/worker-body';
+} from '../../types.js';
+import AsyncQueue from '../async-queue/async-queue.js';
+import WorkerBody from '../worker-farm/worker-body.js';
 // import {validateWorkerVersion} from './validate-worker-version';
 
 /** Counter for jobs */

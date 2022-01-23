@@ -1,4 +1,4 @@
-import type {BuildingSceneLayerTileset, BuildingSceneSublayer} from '../../types';
+import type {BuildingSceneLayerTileset, BuildingSceneSublayer} from '../../types.js';
 
 const OBJECT_3D_LAYER_TYPE = '3DObject';
 

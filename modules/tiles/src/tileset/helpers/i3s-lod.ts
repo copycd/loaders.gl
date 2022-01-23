@@ -1,7 +1,7 @@
 import {Matrix4, Vector3} from '@math.gl/core';
 import {Ellipsoid} from '@math.gl/geospatial';
-import Tile3D from '../tile-3d';
-import {FrameState} from './frame-state';
+import Tile3D from '../tile-3d.js';
+import {FrameState} from './frame-state.js';
 
 /**
  * For the maxScreenThreshold error metric, maxError means that you should replace the node with it's children

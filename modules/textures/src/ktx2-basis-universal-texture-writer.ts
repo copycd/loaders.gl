@@ -1,6 +1,6 @@
 import type {Writer} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
-import {encodeKTX2BasisTexture} from './lib/encoders/encode-ktx2-basis-texture';
+import {VERSION} from './lib/utils/version.js';
+import {encodeKTX2BasisTexture} from './lib/encoders/encode-ktx2-basis-texture.js';
 
 /**
  *  Basis Universal Supercompressed GPU Texture.

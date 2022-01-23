@@ -1,9 +1,9 @@
 import fs from 'fs'; // `fs` will be empty object in browsers (see package.json "browser" field).
-import Response from './response.node';
-import Headers from './headers.node';
+import Response from './response.node.js';
+import Headers from './headers.node.js';
 
-import {decodeDataUri} from './utils/decode-data-uri.node';
-import {createReadStream} from './utils/stream-utils.node';
+import {decodeDataUri} from './utils/decode-data-uri.node.js';
+import {createReadStream} from './utils/stream-utils.node.js';
 
 const isDataURL = (url) => url.startsWith('data:');
 const isRequestURL = (url) => url.startsWith('http:') || url.startsWith('https:');

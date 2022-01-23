@@ -1,6 +1,6 @@
 // This dependency is too big, application must provide it
 import type * as CryptoJSNamespace from 'crypto-js';
-import {Hash} from './hash';
+import {Hash} from './hash.js';
 
 type CryptoHashOptions = {
   modules: {[moduleName: string]: any};

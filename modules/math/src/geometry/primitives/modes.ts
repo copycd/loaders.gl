@@ -1,4 +1,4 @@
-import {GL} from '../constants';
+import {GL} from '../constants.js';
 
 /**
  * Different methods of working with geometries depending on glType

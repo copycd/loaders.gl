@@ -1,9 +1,9 @@
 import {load} from '@loaders.gl/core';
-import TilesetTraverser from './tileset-traverser';
+import TilesetTraverser from './tileset-traverser.js';
 
-import {getLodStatus} from '../helpers/i3s-lod';
-import TileHeader from '../tile-3d';
-import I3STileManager from './i3s-tile-manager';
+import {getLodStatus} from '../helpers/i3s-lod.js';
+import TileHeader from '../tile-3d.js';
+import I3STileManager from './i3s-tile-manager.js';
 
 export default class I3STilesetTraverser extends TilesetTraverser {
   private _tileManager: I3STileManager;

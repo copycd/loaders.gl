@@ -1,4 +1,4 @@
-import type {Subtree, ExplicitBitstream} from '../../../types';
+import type {Subtree, ExplicitBitstream} from '../../../types.js';
 import {fetchFile} from '@loaders.gl/core';
 
 const SUBTREE_FILE_MAGIC = 0x74627573;

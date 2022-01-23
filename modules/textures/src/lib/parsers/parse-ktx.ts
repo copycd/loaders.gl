@@ -1,7 +1,7 @@
 import type {TextureLevel} from '@loaders.gl/schema';
 import {read} from 'ktx-parse';
-import {extractMipmapImages} from '../utils/extract-mipmap-images';
-import {mapVkFormatToWebGL} from '../utils/ktx-format-helper';
+import {extractMipmapImages} from '../utils/extract-mipmap-images.js';
+import {mapVkFormatToWebGL} from '../utils/ktx-format-helper.js';
 
 const KTX2_ID = [
   // '´', 'K', 'T', 'X', '2', '0', 'ª', '\r', '\n', '\x1A', '\n'

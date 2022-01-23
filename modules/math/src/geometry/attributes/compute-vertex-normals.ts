@@ -1,10 +1,10 @@
-import type {TypedArray} from '../types';
+import type {TypedArray} from '../types.js';
 import {Vector3} from '@math.gl/core';
-import {GL} from '../constants';
-import {assert} from '../utils/assert';
-import {makePrimitiveIterator} from '../iterators/primitive-iterator';
-import {getPrimitiveModeType} from '../primitives/modes';
-import {getPositions} from './get-attribute-from-geometry';
+import {GL} from '../constants.js';
+import {assert} from '../utils/assert.js';
+import {makePrimitiveIterator} from '../iterators/primitive-iterator.js';
+import {getPrimitiveModeType} from '../primitives/modes.js';
+import {getPositions} from './get-attribute-from-geometry.js';
 
 type Geometry = {
   mode: any;

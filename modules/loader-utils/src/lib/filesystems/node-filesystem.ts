@@ -1,5 +1,5 @@
-import * as fs from '../node/fs';
-import {IFileSystem, IRandomAccessReadFileSystem} from '../../types';
+import * as fs from '../node/fs.js';
+import {IFileSystem, IRandomAccessReadFileSystem} from '../../types.js';
 // import {fetchFile} from "../fetch/fetch-file"
 // import {selectLoader} from "../api/select-loader";
 

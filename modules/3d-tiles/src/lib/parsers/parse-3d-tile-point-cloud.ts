@@ -5,13 +5,13 @@ import {DracoLoader} from '@loaders.gl/draco';
 import {GL} from '@loaders.gl/math';
 import {Vector3} from '@math.gl/core';
 
-import Tile3DFeatureTable from '../classes/tile-3d-feature-table';
-import Tile3DBatchTable from '../classes/tile-3d-batch-table';
-import {parse3DTileHeaderSync} from './helpers/parse-3d-tile-header';
-import {parse3DTileTablesHeaderSync, parse3DTileTablesSync} from './helpers/parse-3d-tile-tables';
-import {normalize3DTileColorAttribute} from './helpers/normalize-3d-tile-colors';
-import {normalize3DTileNormalAttribute} from './helpers/normalize-3d-tile-normals';
-import {normalize3DTilePositionAttribute} from './helpers/normalize-3d-tile-positions';
+import Tile3DFeatureTable from '../classes/tile-3d-feature-table.js';
+import Tile3DBatchTable from '../classes/tile-3d-batch-table.js';
+import {parse3DTileHeaderSync} from './helpers/parse-3d-tile-header.js';
+import {parse3DTileTablesHeaderSync, parse3DTileTablesSync} from './helpers/parse-3d-tile-tables.js';
+import {normalize3DTileColorAttribute} from './helpers/normalize-3d-tile-colors.js';
+import {normalize3DTileNormalAttribute} from './helpers/normalize-3d-tile-normals.js';
+import {normalize3DTilePositionAttribute} from './helpers/normalize-3d-tile-positions.js';
 
 export async function parsePointCloud3DTile(tile, arrayBuffer, byteOffset, options, context) {
   byteOffset = parse3DTileHeaderSync(tile, arrayBuffer, byteOffset);

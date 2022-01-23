@@ -1,7 +1,7 @@
 // This file is derived from the Cesium code base under Apache 2 license
 // See LICENSE.md and https://github.com/AnalyticalGraphicsInc/cesium/blob/master/LICENSE.md
 
-import {getStringFromArrayBuffer} from './parse-utils';
+import {getStringFromArrayBuffer} from './parse-utils.js';
 
 const SIZEOF_UINT32 = 4;
 const DEPRECATION_WARNING = 'b3dm tile in legacy format.';

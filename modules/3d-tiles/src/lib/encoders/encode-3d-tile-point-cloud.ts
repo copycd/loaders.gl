@@ -1,8 +1,8 @@
 // This file is derived from the Cesium code base under Apache 2 license
 // See LICENSE.md and https://github.com/AnalyticalGraphicsInc/cesium/blob/master/LICENSE.md
 
-import {MAGIC_ARRAY} from '../constants';
-import {encode3DTileHeader, encode3DTileByteLength} from './helpers/encode-3d-tile-header';
+import {MAGIC_ARRAY} from '../constants.js';
+import {encode3DTileHeader, encode3DTileByteLength} from './helpers/encode-3d-tile-header.js';
 import {
   padStringToByteAlignment,
   copyStringToDataView,

@@ -14,9 +14,9 @@ import {
   isIterator,
   isBlob,
   isBuffer
-} from '../../javascript-utils/is-type';
-import {makeIterator} from '../../iterators/make-iterator/make-iterator';
-import {checkResponse, makeResponse} from '../utils/response-utils';
+} from '../../javascript-utils/is-type.js';
+import {makeIterator} from '../../iterators/make-iterator/make-iterator.js';
+import {checkResponse, makeResponse} from '../utils/response-utils.js';
 
 const ERR_DATA = 'Cannot convert supplied data type';
 

@@ -10,10 +10,10 @@ import type {
   Metadata,
   MetadataBuilder,
   draco_GeometryAttribute_Type
-} from '../draco3d/draco3d-types';
+} from '../draco3d/draco3d-types.js';
 
 import type {TypedArray} from '@loaders.gl/schema';
-import type {DracoMesh} from './draco-types';
+import type {DracoMesh} from './draco-types.js';
 
 export type DracoBuildOptions = {
   pointcloud?: boolean;

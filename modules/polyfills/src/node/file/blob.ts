@@ -1,5 +1,5 @@
 // Forked from @gozala's web-blob under MIT license https://github.com/Gozala/web-blob
-import {BlobStream} from './blob-stream';
+import {BlobStream} from './blob-stream.js';
 
 /**
  * Forked from @gozala's web-blob under MIT license

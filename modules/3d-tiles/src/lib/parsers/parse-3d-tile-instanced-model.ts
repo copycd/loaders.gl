@@ -4,12 +4,12 @@
 import {Vector3, Matrix3, Matrix4, Quaternion} from '@math.gl/core';
 import {Ellipsoid} from '@math.gl/geospatial';
 import {GL} from '@loaders.gl/math'; // 'math.gl/geometry';
-import Tile3DFeatureTable from '../classes/tile-3d-feature-table';
-import Tile3DBatchTable from '../classes/tile-3d-batch-table';
+import Tile3DFeatureTable from '../classes/tile-3d-feature-table.js';
+import Tile3DBatchTable from '../classes/tile-3d-batch-table.js';
 
-import {parse3DTileHeaderSync} from './helpers/parse-3d-tile-header';
-import {parse3DTileTablesHeaderSync, parse3DTileTablesSync} from './helpers/parse-3d-tile-tables';
-import {parse3DTileGLTFViewSync, extractGLTF} from './helpers/parse-3d-tile-gltf-view';
+import {parse3DTileHeaderSync} from './helpers/parse-3d-tile-header.js';
+import {parse3DTileTablesHeaderSync, parse3DTileTablesSync} from './helpers/parse-3d-tile-tables.js';
+import {parse3DTileGLTFViewSync, extractGLTF} from './helpers/parse-3d-tile-gltf-view.js';
 
 export async function parseInstancedModel3DTile(tile, arrayBuffer, byteOffset, options, context) {
   byteOffset = parseInstancedModel(tile, arrayBuffer, byteOffset, options, context);

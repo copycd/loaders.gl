@@ -4,7 +4,7 @@
 // Reference code:
 // https://github.com/AnalyticalGraphicsInc/cesium/blob/master/Source/Scene/Composite3DTileContent.js#L182
 
-import {parse3DTileHeaderSync} from './helpers/parse-3d-tile-header';
+import {parse3DTileHeaderSync} from './helpers/parse-3d-tile-header.js';
 
 // eslint-disable-next-line max-params
 export async function parseComposite3DTile(

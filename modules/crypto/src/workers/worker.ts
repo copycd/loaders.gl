@@ -1,7 +1,7 @@
 import {createWorker} from '@loaders.gl/worker-utils';
-import {CRC32Hash} from '../lib/crc32-hash';
-import {CRC32CHash} from '../lib/crc32c-hash';
-import {MD5Hash} from '../lib/md5-hash';
+import {CRC32Hash} from '../lib/crc32-hash.js';
+import {CRC32CHash} from '../lib/crc32c-hash.js';
+import {MD5Hash} from '../lib/md5-hash.js';
 
 // Assuming we can bundle as module
 export {CRC32Hash, CRC32CHash};

@@ -1,12 +1,12 @@
 import type {LoaderContext} from '@loaders.gl/loader-utils';
 import {assert} from '@loaders.gl/loader-utils';
-import type {ImageType} from '../../types';
-import type {ImageLoaderOptions} from '../../image-loader';
-import {isImageTypeSupported, getDefaultImageType} from '../category-api/image-type';
-import {getImageData} from '../category-api/parsed-image-api';
-import parseToImage from './parse-to-image';
-import parseToImageBitmap from './parse-to-image-bitmap';
-import parseToNodeImage from './parse-to-node-image';
+import type {ImageType} from '../../types.js';
+import type {ImageLoaderOptions} from '../../image-loader.js';
+import {isImageTypeSupported, getDefaultImageType} from '../category-api/image-type.js';
+import {getImageData} from '../category-api/parsed-image-api.js';
+import parseToImage from './parse-to-image.js';
+import parseToImageBitmap from './parse-to-image-bitmap.js';
+import parseToNodeImage from './parse-to-node-image.js';
 
 // Parse to platform defined image type (data on node, ImageBitmap or HTMLImage on browser)
 // eslint-disable-next-line complexity

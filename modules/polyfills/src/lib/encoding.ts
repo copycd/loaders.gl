@@ -5,7 +5,7 @@
 // This is free and unencumbered software released into the public domain.
 // See LICENSE.md for more information.
 
-import indexes from './encoding-indexes';
+import indexes from './encoding-indexes.js';
 // Note: Aaian character indices add half a megabyte to bundle. Ignore, since we really only want the built-in UTF8...
 // import indexes from './encoding-indexes-asian.js';
 global['encoding-indexes'] = indexes || {};

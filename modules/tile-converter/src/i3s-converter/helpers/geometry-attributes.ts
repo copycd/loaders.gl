@@ -1,4 +1,4 @@
-import type {GeometryAttributes, AttributesData, GroupedByFeatureIdAttributes} from '../types';
+import type {GeometryAttributes, AttributesData, GroupedByFeatureIdAttributes} from '../types.js';
 import {concatenateTypedArrays} from '@loaders.gl/loader-utils';
 
 const VALUES_PER_VERTEX = 3;

@@ -1,5 +1,5 @@
 import {TypedArray} from '../../types';
-import {padToNBytes} from './memory-copy-utils';
+import {padToNBytes} from './memory-copy-utils.js';
 
 /**
  * Copy sourceBuffer to dataView with some padding

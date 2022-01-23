@@ -1,12 +1,12 @@
 import type {LoaderWithParser, LoaderOptions} from '@loaders.gl/loader-utils';
 import type {DracoLoaderOptions} from '@loaders.gl/draco';
-import {VERSION} from './lib/utils/version';
+import {VERSION} from './lib/utils/version.js';
 import type {ImageLoaderOptions} from '@loaders.gl/images';
 import type {TextureLoaderOptions} from '@loaders.gl/textures';
-import type {GLTFParseOptions} from './lib/parsers/parse-gltf';
-import type {GLTFWithBuffers} from './lib/types/gltf-types';
-import {parseGLTF} from './lib/parsers/parse-gltf';
-import {GLBLoaderOptions} from './glb-loader';
+import type {GLTFParseOptions} from './lib/parsers/parse-gltf.js';
+import type {GLTFWithBuffers} from './lib/types/gltf-types.js';
+import {parseGLTF} from './lib/parsers/parse-gltf.js';
+import {GLBLoaderOptions} from './glb-loader.js';
 
 /**
  * GLTF loader options

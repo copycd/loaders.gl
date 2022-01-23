@@ -1,6 +1,6 @@
 import {deduceMeshField, MeshAttribute} from '@loaders.gl/schema';
 import {Schema, Field} from '@loaders.gl/schema';
-import type {DracoAttribute, DracoLoaderData, DracoMetadataEntry} from '../draco-types';
+import type {DracoAttribute, DracoLoaderData, DracoMetadataEntry} from '../draco-types.js';
 
 /** Extract an arrow-like schema from a Draco mesh */
 export function getDracoSchema(

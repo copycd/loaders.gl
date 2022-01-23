@@ -1,6 +1,7 @@
 {
   "name": "@loaders.gl/tile-converter",
   "version": "4.0.0-alpha.5",
+  "type": "module",
   "description": "Converter",
   "license": "MIT",
   "publishConfig": {

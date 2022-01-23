@@ -1,6 +1,6 @@
 import type {Writer} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
-import {encodeGLTFSync} from './lib/encoders/encode-gltf';
+import {VERSION} from './lib/utils/version.js';
+import {encodeGLTFSync} from './lib/encoders/encode-gltf.js';
 
 export type GLTFWriterOptions = {
   gltf?: {};

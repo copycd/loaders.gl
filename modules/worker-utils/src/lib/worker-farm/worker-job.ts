@@ -1,6 +1,6 @@
-import type {WorkerMessageType, WorkerMessagePayload} from '../../types';
-import WorkerThread from './worker-thread';
-import {assert} from '../env-utils/assert';
+import type {WorkerMessageType, WorkerMessagePayload} from '../../types.js';
+import WorkerThread from './worker-thread.js';
+import {assert} from '../env-utils/assert.js';
 
 /**
  * Represents one Job handled by a WorkerPool or WorkerFarm

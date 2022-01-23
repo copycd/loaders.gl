@@ -3,8 +3,8 @@
 
 import {assert} from '@loaders.gl/loader-utils';
 
-import {createTypedArrayFromAccessor} from './helpers/tile-3d-accessor-utils';
-import {initializeHierarchy, traverseHierarchy} from './tile-3d-batch-table-hierarchy';
+import {createTypedArrayFromAccessor} from './helpers/tile-3d-accessor-utils.js';
+import {initializeHierarchy, traverseHierarchy} from './tile-3d-batch-table-hierarchy.js';
 
 function defined(x) {
   return x !== undefined && x !== null;

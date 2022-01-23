@@ -1,5 +1,5 @@
 import {isBrowser} from '@loaders.gl/loader-utils';
-import type {ImageTypeEnum} from '../../types';
+import type {ImageTypeEnum} from '../../types.js';
 
 // @ts-ignore TS2339: Property does not exist on type
 const {_parseImageNode} = globalThis;

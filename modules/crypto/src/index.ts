@@ -1,14 +1,14 @@
 // import type {WorkerObject} from '@loaders.gl/worker-utils';
 
-export {CRC32Hash} from './lib/crc32-hash';
-export {CRC32CHash} from './lib/crc32c-hash';
-export {MD5Hash} from './lib/md5-hash';
-export {SHA256Hash} from './lib/sha256-hash';
+export {CRC32Hash} from './lib/crc32-hash.js';
+export {CRC32CHash} from './lib/crc32c-hash.js';
+export {MD5Hash} from './lib/md5-hash.js';
+export {SHA256Hash} from './lib/sha256-hash.js';
 
-export {CryptoHash} from './lib/crypto-hash';
-export {NodeHash} from './lib/node-hash';
+export {CryptoHash} from './lib/crypto-hash.js';
+export {NodeHash} from './lib/node-hash.js';
 
-export {hexToBase64 as _hexToBase64, toHex as _toHex} from './lib/utils/digest-utils';
+export {hexToBase64 as _hexToBase64, toHex as _toHex} from './lib/utils/digest-utils.js';
 
 // __VERSION__ is injected by babel-plugin-version-inline
 // @ts-ignore TS2304: Cannot find name '__VERSION__'.

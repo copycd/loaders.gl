@@ -1,6 +1,6 @@
 import {load} from '@loaders.gl/core';
 import {ZipLoader} from '@loaders.gl/zip';
-import {writeFile} from '../lib/utils/file-utils';
+import {writeFile} from '../lib/utils/file-utils.js';
 import {join} from 'path';
 
 const PGM_LINK = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/egm/egm2008-5.zip';

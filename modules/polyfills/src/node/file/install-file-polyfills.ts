@@ -1,7 +1,7 @@
-import {ReadableStreamPolyfill} from './readable-stream';
-import {BlobPolyfill} from './blob';
-import {FileReaderPolyfill} from './file-reader';
-import {FilePolyfill} from './file';
+import {ReadableStreamPolyfill} from './readable-stream.js';
+import {BlobPolyfill} from './blob.js';
+import {FileReaderPolyfill} from './file-reader.js';
+import {FilePolyfill} from './file.js';
 
 export function installFilePolyfills() {
   if (typeof ReadableStream === 'undefined' && global) {

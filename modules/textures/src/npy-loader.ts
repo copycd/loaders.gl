@@ -1,6 +1,6 @@
 import type {Loader, LoaderWithParser, LoaderOptions} from '@loaders.gl/loader-utils';
-import {VERSION} from './lib/utils/version';
-import {parseNPY} from './lib/parsers/parse-npy';
+import {VERSION} from './lib/utils/version.js';
+import {parseNPY} from './lib/parsers/parse-npy.js';
 
 // \x93NUMPY
 const NPY_MAGIC_NUMBER = new Uint8Array([147, 78, 85, 77, 80, 89]);

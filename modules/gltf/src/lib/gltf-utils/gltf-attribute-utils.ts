@@ -1,7 +1,7 @@
 // import type {TypedArray} from '../types/loader-utils';
-import type {GLTFAccessor} from '../types/gltf-types';
+import type {GLTFAccessor} from '../types/gltf-types.js';
 // TODO - remove
-import {getAccessorTypeFromSize, getComponentTypeFromArray} from './gltf-utils';
+import {getAccessorTypeFromSize, getComponentTypeFromArray} from './gltf-utils.js';
 
 // Returns a fresh attributes object with glTF-standardized attributes names
 // Attributes that cannot be identified will not be included

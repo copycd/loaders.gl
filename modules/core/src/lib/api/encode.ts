@@ -1,8 +1,8 @@
 import type {Writer, LoaderOptions} from '@loaders.gl/loader-utils';
 import {concatenateArrayBuffers, resolvePath} from '@loaders.gl/loader-utils';
 import {isBrowser} from '@loaders.gl/loader-utils';
-import {writeFile} from '../fetch/write-file';
-import {fetchFile} from '../fetch/fetch-file';
+import {writeFile} from '../fetch/write-file.js';
+import {fetchFile} from '../fetch/fetch-file.js';
 
 /**
  * Encode loaded data into a binary ArrayBuffer using the specified Writer.

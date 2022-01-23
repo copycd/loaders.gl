@@ -1,4 +1,4 @@
-import {assert} from '../env-utils/assert';
+import {assert} from '../env-utils/assert.js';
 
 /**
  * Calculate new size of an arrayBuffer to be aligned to an n-byte boundary

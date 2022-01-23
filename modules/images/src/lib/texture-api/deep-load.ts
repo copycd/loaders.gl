@@ -1,4 +1,4 @@
-import {asyncDeepMap} from './async-deep-map';
+import {asyncDeepMap} from './async-deep-map.js';
 
 export async function deepLoad(urlTree, load, options) {
   return await asyncDeepMap(urlTree, (url) => shallowLoad(url, load, options));

@@ -6,8 +6,8 @@ import {
   copyBinaryToDataView,
   copyPaddedStringToDataView
 } from '@loaders.gl/loader-utils';
-import {MAGIC_ARRAY} from '../constants';
-import {encode3DTileHeader, encode3DTileByteLength} from './helpers/encode-3d-tile-header';
+import {MAGIC_ARRAY} from '../constants.js';
+import {encode3DTileHeader, encode3DTileByteLength} from './helpers/encode-3d-tile-header.js';
 
 // Procedurally encode the tile array dataView for testing purposes
 export function encodeBatchedModel3DTile(tile, dataView, byteOffset, options) {

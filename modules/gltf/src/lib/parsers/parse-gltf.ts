@@ -1,19 +1,19 @@
 /* eslint-disable camelcase, max-statements, no-restricted-globals */
 import type {LoaderContext} from '@loaders.gl/loader-utils';
 import {BasisLoader, selectSupportedBasisFormat} from '@loaders.gl/textures';
-import type {GLTFLoaderOptions} from '../../gltf-loader';
-import type {GLB} from '../types/glb-types';
-import type {GLTFWithBuffers} from '../types/gltf-types';
+import type {GLTFLoaderOptions} from '../../gltf-loader.js';
+import type {GLB} from '../types/glb-types.js';
+import type {GLTFWithBuffers} from '../types/gltf-types.js';
 
 import {ImageLoader} from '@loaders.gl/images';
 import {parseJSON, sliceArrayBuffer} from '@loaders.gl/loader-utils';
-import {assert} from '../utils/assert';
-import {resolveUrl} from '../gltf-utils/resolve-url';
-import {getTypedArrayForBufferView} from '../gltf-utils/get-typed-array';
-import {preprocessExtensions, decodeExtensions} from '../api/gltf-extensions';
-import {normalizeGLTFV1} from '../api/normalize-gltf-v1';
-import {postProcessGLTF} from '../api/post-process-gltf';
-import parseGLBSync, {isGLB} from './parse-glb';
+import {assert} from '../utils/assert.js';
+import {resolveUrl} from '../gltf-utils/resolve-url.js';
+import {getTypedArrayForBufferView} from '../gltf-utils/get-typed-array.js';
+import {preprocessExtensions, decodeExtensions} from '../api/gltf-extensions.js';
+import {normalizeGLTFV1} from '../api/normalize-gltf-v1.js';
+import {postProcessGLTF} from '../api/post-process-gltf.js';
+import parseGLBSync, {isGLB} from './parse-glb.js';
 
 export type GLTFParseOptions = {
   normalize?: boolean;

@@ -1,5 +1,5 @@
-import isGeometry from '../is-geometry';
-import {assert} from '../utils/assert';
+import isGeometry from '../is-geometry.js';
+import {assert} from '../utils/assert.js';
 
 /**
  * analyze positions of geometry

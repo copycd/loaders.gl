@@ -2,8 +2,8 @@
 // See LICENSE.md and https://github.com/AnalyticalGraphicsInc/cesium/blob/master/LICENSE.md
 
 import {copyStringToDataView} from '@loaders.gl/loader-utils';
-import {MAGIC_ARRAY} from '../constants';
-import {encode3DTileHeader, encode3DTileByteLength} from './helpers/encode-3d-tile-header';
+import {MAGIC_ARRAY} from '../constants.js';
+import {encode3DTileHeader, encode3DTileByteLength} from './helpers/encode-3d-tile-header.js';
 
 // Procedurally encode the tile array buffer for testing purposes
 // eslint-disable-next-line max-statements

@@ -1,8 +1,8 @@
 import type {Loader, LoaderContext, LoaderOptions} from '@loaders.gl/loader-utils';
-import {isPureObject, isObject} from '../../javascript-utils/is-type';
-import {fetchFile} from '../fetch/fetch-file';
-import {probeLog, NullLog} from './loggers';
-import {DEFAULT_LOADER_OPTIONS, REMOVED_LOADER_OPTIONS} from './option-defaults';
+import {isPureObject, isObject} from '../../javascript-utils/is-type.js';
+import {fetchFile} from '../fetch/fetch-file.js';
+import {probeLog, NullLog} from './loggers.js';
+import {DEFAULT_LOADER_OPTIONS, REMOVED_LOADER_OPTIONS} from './option-defaults.js';
 /**
  * Global state for loaders.gl. Stored on `global.loaders._state`
  */

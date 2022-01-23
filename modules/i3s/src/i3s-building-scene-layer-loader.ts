@@ -1,7 +1,7 @@
 import type {LoaderWithParser, LoaderOptions, LoaderContext} from '@loaders.gl/loader-utils';
-import type {BuildingSceneLayerTileset} from './types';
+import type {BuildingSceneLayerTileset} from './types.js';
 
-import {parseBuildingSceneLayer} from './lib/parsers/parse-i3s-building-scene-layer';
+import {parseBuildingSceneLayer} from './lib/parsers/parse-i3s-building-scene-layer.js';
 
 // __VERSION__ is injected by babel-plugin-version-inline
 // @ts-ignore TS2304: Cannot find name '__VERSION__'.

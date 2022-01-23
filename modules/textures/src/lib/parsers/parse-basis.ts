@@ -1,9 +1,9 @@
 /* eslint-disable indent */
 import type {TextureLevel} from '@loaders.gl/schema';
-import {loadBasisEncoderModule, loadBasisTrascoderModule} from './basis-module-loader';
-import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions';
-import {getSupportedGPUTextureFormats} from '../utils/texture-formats';
-import {isKTX} from './parse-ktx';
+import {loadBasisEncoderModule, loadBasisTrascoderModule} from './basis-module-loader.js';
+import {GL_EXTENSIONS_CONSTANTS} from '../gl-extensions.js';
+import {getSupportedGPUTextureFormats} from '../utils/texture-formats.js';
+import {isKTX} from './parse-ktx.js';
 
 export type BasisFormat =
   | 'etc1'

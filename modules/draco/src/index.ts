@@ -1,9 +1,9 @@
 import type {LoaderWithParser} from '@loaders.gl/loader-utils';
-import type {DracoMesh, DracoLoaderData} from './lib/draco-types';
-import type {DracoLoaderOptions} from './draco-loader';
-import {DracoLoader as DracoWorkerLoader} from './draco-loader';
-import DracoParser from './lib/draco-parser';
-import {loadDracoDecoderModule} from './lib/draco-module-loader';
+import type {DracoMesh, DracoLoaderData} from './lib/draco-types.js';
+import type {DracoLoaderOptions} from './draco-loader.js';
+import {DracoLoader as DracoWorkerLoader} from './draco-loader.js';
+import DracoParser from './lib/draco-parser.js';
+import {loadDracoDecoderModule} from './lib/draco-module-loader.js';
 
 // Draco data types
 
@@ -11,8 +11,8 @@ export type {DracoMesh, DracoLoaderData};
 
 // Draco Writer
 
-export type {DracoWriterOptions} from './draco-writer';
-export {DracoWriter} from './draco-writer';
+export type {DracoWriterOptions} from './draco-writer.js';
+export {DracoWriter} from './draco-writer.js';
 
 // Draco Loader
 

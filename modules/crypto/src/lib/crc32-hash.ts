@@ -1,7 +1,7 @@
 // CRC32
-import {Hash} from './hash';
-import CRC32 from './algorithms/crc32';
-import {toHex, hexToBase64} from './utils/digest-utils';
+import {Hash} from './hash.js';
+import CRC32 from './algorithms/crc32.js';
+import {toHex, hexToBase64} from './utils/digest-utils.js';
 
 /**
  * Calculates CRC32 Cryptographic Hash

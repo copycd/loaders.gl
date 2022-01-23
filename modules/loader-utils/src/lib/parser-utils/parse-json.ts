@@ -1,4 +1,4 @@
-import {getFirstCharacters} from '../binary-utils/get-first-characters';
+import {getFirstCharacters} from '../binary-utils/get-first-characters.js';
 
 /**
  * Minimal JSON parser that throws more meaningful error messages

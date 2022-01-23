@@ -1,5 +1,5 @@
 //
-import {CryptoHash} from './crypto-hash';
+import {CryptoHash} from './crypto-hash.js';
 
 type CryptoHashOptions = {
   modules: {[moduleName: string]: any};

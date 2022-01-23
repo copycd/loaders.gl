@@ -2,6 +2,7 @@
   "name": "@loaders.gl/crypto",
   "version": "4.0.0-alpha.5",
   "description": "Cryptographic/hashing plugins for loaders.gl",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

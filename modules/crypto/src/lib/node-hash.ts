@@ -1,5 +1,5 @@
 // This dependency is too big, application must provide it
-import {Hash} from './hash';
+import {Hash} from './hash.js';
 import {createHash} from 'crypto'; // Node.js builtin
 
 type CryptoHashOptions = {

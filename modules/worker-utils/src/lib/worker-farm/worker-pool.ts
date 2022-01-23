@@ -1,7 +1,7 @@
-import type {WorkerMessageType, WorkerMessagePayload} from '../../types';
-import {isMobile} from '../env-utils/globals';
-import WorkerThread from './worker-thread';
-import WorkerJob from './worker-job';
+import type {WorkerMessageType, WorkerMessagePayload} from '../../types.js';
+import {isMobile} from '../env-utils/globals.js';
+import WorkerThread from './worker-thread.js';
+import WorkerJob from './worker-job.js';
 
 /** WorkerPool onDebug Callback Parameters */
 type OnDebugParameters = {

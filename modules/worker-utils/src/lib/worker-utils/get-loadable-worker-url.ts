@@ -1,4 +1,4 @@
-import {assert} from '../env-utils/assert';
+import {assert} from '../env-utils/assert.js';
 
 const workerURLCache = new Map();
 

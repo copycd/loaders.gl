@@ -1,6 +1,6 @@
-import type {ImageLoaderOptions} from '../../image-loader';
-import {isSVG, getBlob} from './svg-utils';
-import parseToImage from './parse-to-image';
+import type {ImageLoaderOptions} from '../../image-loader.js';
+import {isSVG, getBlob} from './svg-utils.js';
+import parseToImage from './parse-to-image.js';
 
 const EMPTY_OBJECT = {};
 
