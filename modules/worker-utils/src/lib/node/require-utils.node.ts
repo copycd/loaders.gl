@@ -7,6 +7,13 @@
 import Module from 'module';
 import path from 'path';
 
+// copycd:: requireFromString를 사용하기 위해서 추가.
+import {
+    requireFromString as proxy_requireFromString
+    //importFromString,
+    //importFromStringSync
+  } from 'module-from-string';
+  
 // Node.js Dynamically require from file
 // Relative names are resolved relative to cwd
 // This indirect function is provided because webpack will try to bundle `module.require`.
@@ -15,7 +22,7 @@ export async function requireFromFile(filename: string): Promise<any> {
   if (filename.startsWith('http')) {
     const response = await fetch(filename);
     const code = await response.text();
-    return requireFromString(code);
+    return proxy_requireFromString(code);
   }
 
   if (!filename.startsWith('/')) {
@@ -30,6 +37,7 @@ export async function requireFromFile(filename: string): Promise<any> {
 // - `options.appendPaths` Type: Array List of paths, that will be appended to module paths.
 // Useful, when you want to be able require modules from these paths.
 // - `options.prependPaths` Type: Array Same as appendPaths, but paths will be prepended.
+// copycd:: requireFromString 원래있던 함수를 사용하지 않고, 위의 import한걸 사용함.
 export function requireFromString(
   code: string,
   filename = '',
@@ -49,7 +57,7 @@ export function requireFromString(
 
   // @ts-ignore
   const paths = Module._nodeModulePaths(path.dirname(filename));
-
+	// copycd::이젠없어진것때문에. https://nodejs.org/api/deprecations.html#DEP0144
   const parent = module.parent;
   // @ts-ignore
   const newModule = new Module(filename, parent);
