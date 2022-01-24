@@ -26,7 +26,7 @@ export async function writeFileForSlpk(path, data, fileName = 'index.json', comp
 }
 
 export function removeDir(path) {
-  return fs.rmdir(path, {recursive: true});
+  return fs.rm(path, {recursive: true});
 }
 
 export function removeFile(path) {
