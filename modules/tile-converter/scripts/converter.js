@@ -72,15 +72,16 @@ let options;
 async function main() {
 
   // copycd::테스트용.
-if( false )
-{
-  process.argv.push("--input-type");
-  process.argv.push("3DTILES");
-  process.argv.push("--tileset");
-  process.argv.push("D:/tmp/a/BatchedWGS84/tileset.json");
-  process.argv.push("--name");
-  process.argv.push("outBatchedWGS84");
-}
+  if( false )
+  {
+    process.argv.push("--input-type");
+    process.argv.push("3DTILES");
+    process.argv.push("--tileset");
+    //process.argv.push("D:/tmp/a/BatchedWGS84/tileset.json");
+    process.argv.push("D:/tmp/a/yeouido_2201/tileset.json");
+    process.argv.push("--name");
+    process.argv.push("outBatchedWGS84");
+  }
 
   const [, , ...args] = process.argv;
 

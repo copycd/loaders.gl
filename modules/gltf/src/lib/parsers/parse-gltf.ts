@@ -5,6 +5,9 @@ import type {GLTFLoaderOptions} from '../../gltf-loader.js';
 import type {GLB} from '../types/glb-types.js';
 import type {GLTFWithBuffers} from '../types/gltf-types.js';
 
+// copycd:: polyfills가 import되어야함.
+import '../../../../polyfills/dist/index.js';
+
 import {ImageLoader} from '@loaders.gl/images';
 import {parseJSON, sliceArrayBuffer} from '@loaders.gl/loader-utils';
 import {assert} from '../utils/assert.js';
