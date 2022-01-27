@@ -55,6 +55,9 @@ import Tileset3DTraverser from './traversers/tileset-3d-traverser.js';
 import TilesetTraverser from './traversers/tileset-traverser.js';
 import I3SetTraverser from './traversers/i3s-tileset-traverser.js';
 import {TILESET_TYPE} from '../constants.js';
+// copycd:: polyfills가 import되어야함.
+import '@loaders.gl/polyfills';
+//import '../../../polyfills/dist/index.js';
 
 export type Tileset3DProps = {
   // loading

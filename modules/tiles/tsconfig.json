@@ -11,6 +11,7 @@
   "references": [
     {"path": "../core"},
     {"path": "../loader-utils"},
-    {"path": "../math"}
+    {"path": "../math"},
+	{"path": "../polyfills"}
   ]
 }
