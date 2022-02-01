@@ -1,7 +1,7 @@
 // COMMON CATEGORY
-export type {TypedArray, NumberArray, AnyArray} from './types';
+export type {TypedArray, NumberArray, AnyArray} from './types.js';
 
-export type {Batch} from './category/common';
+export type {Batch} from './category/common.js';
 
 // TABLE CATEGORY TYPES
 export type {
@@ -10,22 +10,22 @@ export type {
   ObjectRowTable,
   ColumnarTable,
   ArrowTable
-} from './category/table/table-types';
+} from './category/table/table-types.js';
 export type {
   TableBatch,
   RowArrayTableBatch,
   RowObjectTableBatch,
   ColumnarTableBatch,
   ArrowTableBatch
-} from './category/table/table-types';
+} from './category/table/table-types.js';
 
 // TABLE CATEGORY UTILS
-export {default as TableBatchBuilder} from './lib/batches/table-batch-builder';
-export type {TableBatchAggregator} from './lib/batches/table-batch-aggregator';
-export {default as RowTableBatchAggregator} from './lib/batches/row-table-batch-aggregator';
-export {default as ColumnarTableBatchAggregator} from './lib/batches/columnar-table-batch-aggregator';
+export {default as TableBatchBuilder} from './lib/batches/table-batch-builder.js';
+export type {TableBatchAggregator} from './lib/batches/table-batch-aggregator.js';
+export {default as RowTableBatchAggregator} from './lib/batches/row-table-batch-aggregator.js';
+export {default as ColumnarTableBatchAggregator} from './lib/batches/columnar-table-batch-aggregator.js';
 
-export {convertToObjectRow, convertToArrayRow} from './lib/utils/row-utils';
+export {convertToObjectRow, convertToArrayRow} from './lib/utils/row-utils.js';
 
 // MESH CATEGORY
 export type {
@@ -35,25 +35,25 @@ export type {
   MeshGeometry,
   MeshAttribute,
   MeshAttributes
-} from './category/mesh/mesh-types';
+} from './category/mesh/mesh-types.js';
 
-export {getMeshSize, getMeshBoundingBox} from './category/mesh/mesh-utils';
-export {convertMesh} from './category/mesh/convert-mesh';
+export {getMeshSize, getMeshBoundingBox} from './category/mesh/mesh-utils.js';
+export {convertMesh} from './category/mesh/convert-mesh.js';
 export {
   deduceMeshSchema,
   deduceMeshField,
   makeMeshAttributeMetadata
-} from './category/mesh/deduce-mesh-schema';
+} from './category/mesh/deduce-mesh-schema.js';
 
 // TEXTURES
-export type {TextureLevel, GPUTextureFormat} from './category/texture/texture';
+export type {TextureLevel, GPUTextureFormat} from './category/texture/texture.js';
 
 // IMAGES
-export type {ImageDataType, ImageType, ImageTypeEnum} from './category/image/image';
+export type {ImageDataType, ImageType, ImageTypeEnum} from './category/image/image.js';
 
 // TYPES
 // GIS CATEGORY - GEOJSON
-export type {GeoJSON, Feature, Geometry, Position, GeoJsonProperties} from './category/gis';
+export type {GeoJSON, Feature, Geometry, Position, GeoJsonProperties} from './category/gis.js';
 export type {
   Point,
   MultiPoint,
@@ -62,9 +62,9 @@ export type {
   Polygon,
   MultiPolygon,
   GeometryCollection
-} from './category/gis';
+} from './category/gis.js';
 
-export type {GeojsonGeometryInfo} from './category/gis';
+export type {GeojsonGeometryInfo} from './category/gis.js';
 
 // GIS CATEGORY - FLAT GEOJSON
 export type {
@@ -75,7 +75,7 @@ export type {
   FlatPoint,
   FlatLineString,
   FlatPolygon
-} from './category/gis';
+} from './category/gis.js';
 
 // GIS CATEGORY - BINARY
 export type {
@@ -85,13 +85,13 @@ export type {
   BinaryLineGeometry,
   BinaryPolygonGeometry,
   BinaryAttribute
-} from './category/gis';
+} from './category/gis.js';
 export type {
   BinaryFeatures,
   BinaryPointFeatures,
   BinaryLineFeatures,
   BinaryPolygonFeatures
-} from './category/gis';
+} from './category/gis.js';
 
 // SCHEMA
 export {
@@ -131,13 +131,13 @@ export {
   IntervalYearMonth,
   FixedSizeList,
   Struct
-} from './lib/schema/schema';
+} from './lib/schema/schema.js';
 
 // EXPERIMENTAL APIs
 
 // SCHEMA UTILS
-export {deduceTypeFromColumn, deduceTypeFromValue} from './lib/schema-utils/deduce-column-type';
-export {getTypeInfo} from './lib/arrow/get-type-info';
-export {getArrowTypeFromTypedArray} from './lib/arrow/arrow-like-type-utils';
+export {deduceTypeFromColumn, deduceTypeFromValue} from './lib/schema-utils/deduce-column-type.js';
+export {getTypeInfo} from './lib/arrow/get-type-info.js';
+export {getArrowTypeFromTypedArray} from './lib/arrow/arrow-like-type-utils.js';
 
-export {default as AsyncQueue} from './lib/utils/async-queue';
+export {default as AsyncQueue} from './lib/utils/async-queue.js';
