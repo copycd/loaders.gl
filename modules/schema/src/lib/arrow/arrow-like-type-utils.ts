@@ -9,7 +9,7 @@ import {
   Uint16,
   Uint32,
   Uint8
-} from '../schema/schema';
+} from '../schema/schema.js';
 
 export function getArrowTypeFromTypedArray(array: TypedArray): DataType {
   switch (array.constructor) {
