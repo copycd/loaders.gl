@@ -5,9 +5,9 @@
  * MIT (c) 2011 T. Jameson Little
  */
 
-import {clean, pad, stringToUint8} from './utils';
-import {format} from './header';
-import type {TarBlocks, TarOptions, TarChunks, TarChunk} from './types';
+import {clean, pad, stringToUint8} from './utils.js';
+import {format} from './header.js';
+import type {TarBlocks, TarOptions, TarChunks, TarChunk} from './types.js';
 
 let blockSize: number;
 let headerLength: number;

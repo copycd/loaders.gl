@@ -1,4 +1,4 @@
-import Tar from './lib/tar/tar';
+import Tar from './lib/tar/tar.js';
 
 const TAR_BUILDER_OPTIONS = {
   recordsPerBlock: 20

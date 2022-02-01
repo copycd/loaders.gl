@@ -2,6 +2,7 @@
   "name": "@loaders.gl/zip",
   "version": "4.0.0-alpha.5",
   "description": "Zip Archive Loader",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
