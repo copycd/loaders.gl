@@ -1,7 +1,7 @@
 // Mesh category utilities
 // TODO - move to mesh category module, or to math.gl/geometry module
-import {TypedArray} from '../../types';
-import {MeshAttributes} from './mesh-types';
+import {TypedArray} from '../../types.js';
+import {MeshAttributes} from './mesh-types.js';
 
 type TypedArrays = {[key: string]: TypedArray};
 

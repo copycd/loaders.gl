@@ -1,4 +1,4 @@
-import type {ImageType} from '../image/image';
+import type {ImageType} from '../image/image.js';
 
 /**
  * These represent the main compressed texture formats

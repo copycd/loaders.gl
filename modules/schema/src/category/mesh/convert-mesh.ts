@@ -1,6 +1,6 @@
-import type {Mesh} from './mesh-types';
-import type {ColumnarTable, ArrowTable} from '../table/table-types';
-import {convertMeshToArrowTable} from './mesh-to-arrow-table';
+import type {Mesh} from './mesh-types.js';
+import type {ColumnarTable, ArrowTable} from '../table/table-types.js';
+import {convertMeshToArrowTable} from './mesh-to-arrow-table.js';
 
 type TargetShape = 'mesh' | 'columnar-table' | 'arrow-table';
 

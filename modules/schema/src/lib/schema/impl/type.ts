@@ -1,11 +1,11 @@
 // This code is adapted from ArrowJS https://github.com/apache/arrow
 // under Apache license http://www.apache.org/licenses/LICENSE-2.0
 
-import {Type} from './enum';
+import {Type} from './enum.js';
 
-import Field from './field';
+import Field from './field.js';
 
-export {Type} from './enum';
+export {Type} from './enum.js';
 
 export type TypedIntArray =
   | Int8Array

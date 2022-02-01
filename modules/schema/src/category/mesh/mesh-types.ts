@@ -1,6 +1,6 @@
-import type {Schema} from '../../lib/schema/schema';
-import type {TypedArray} from '../../types';
-import type {ColumnarTable, ArrowTable} from '../table/table-types';
+import type {Schema} from '../../lib/schema/schema.js';
+import type {TypedArray} from '../../types.js';
+import type {ColumnarTable, ArrowTable} from '../table/table-types.js';
 
 /** Mesh as columnar table */
 export interface MeshTable extends ColumnarTable {

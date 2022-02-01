@@ -8,9 +8,9 @@ import {
   FixedSizeListVector
 } from 'apache-arrow/Arrow.dom';
 import {AbstractVector} from 'apache-arrow/vector';
-import {getArrowType, getArrowVector} from '../../lib/arrow/arrow-type-utils';
-import type {Mesh} from './mesh-types';
-import {makeMeshAttributeMetadata} from './deduce-mesh-schema';
+import {getArrowType, getArrowVector} from '../../lib/arrow/arrow-type-utils.js';
+import type {Mesh} from './mesh-types.js';
+import {makeMeshAttributeMetadata} from './deduce-mesh-schema.js';
 
 /**
  * * Convert a loaders.gl Mesh to an Apache Arrow Table

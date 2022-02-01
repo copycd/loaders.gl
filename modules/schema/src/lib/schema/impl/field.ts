@@ -1,4 +1,4 @@
-import {DataType} from './type';
+import {DataType} from './type.js';
 
 /**
  * ArrowJS `Field` API-compatible class for row-based tables

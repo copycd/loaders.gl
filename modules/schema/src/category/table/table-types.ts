@@ -1,7 +1,7 @@
-import type {Schema} from '../../lib/schema/schema';
+import type {Schema} from '../../lib/schema/schema.js';
 import type {Table as ApacheArrowTable, RecordBatch} from 'apache-arrow/Arrow.dom';
-import type {AnyArray} from '../../types';
-import type {Batch} from '../common';
+import type {AnyArray} from '../../types.js';
+import type {Batch} from '../common.js';
 
 /** A general table */
 export interface Table {

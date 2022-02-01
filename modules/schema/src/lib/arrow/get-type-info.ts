@@ -1,5 +1,5 @@
-import {Type} from '../schema/schema';
-import {AnyArray} from '../../types';
+import {Type} from '../schema/schema.js';
+import {AnyArray} from '../../types.js';
 
 /**
  * Gets type information from an Arrow type object or "mock" Arrow type object

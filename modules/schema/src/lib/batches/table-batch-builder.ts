@@ -1,9 +1,9 @@
-import type {Schema} from '../schema/schema';
-import type {TableBatch} from '../../category/table/table-types';
-import type {TableBatchAggregator, TableBatchConstructor} from './table-batch-aggregator';
-import BaseTableBatchAggregator from './base-table-batch-aggregator';
-import RowTableBatchAggregator from './row-table-batch-aggregator';
-import ColumnarTableBatchAggregator from './columnar-table-batch-aggregator';
+import type {Schema} from '../schema/schema.js';
+import type {TableBatch} from '../../category/table/table-types.js';
+import type {TableBatchAggregator, TableBatchConstructor} from './table-batch-aggregator.js';
+import BaseTableBatchAggregator from './base-table-batch-aggregator.js';
+import RowTableBatchAggregator from './row-table-batch-aggregator.js';
+import ColumnarTableBatchAggregator from './columnar-table-batch-aggregator.js';
 
 // TODO define interface instead
 type TableBatchBuilderOptions = {

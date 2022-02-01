@@ -1,6 +1,6 @@
-import type {Schema} from '../schema/schema';
-import type {ColumnarTableBatch, ArrowTableBatch} from '../../category/table/table-types';
-import {TableBatchAggregator} from './table-batch-aggregator';
+import type {Schema} from '../schema/schema.js';
+import type {ColumnarTableBatch, ArrowTableBatch} from '../../category/table/table-types.js';
+import {TableBatchAggregator} from './table-batch-aggregator.js';
 
 type ColumnarTableBatchOptions = {};
 

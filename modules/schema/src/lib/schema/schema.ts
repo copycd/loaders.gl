@@ -39,9 +39,9 @@ export {
   FixedSizeList
 } from 'apache-arrow';
 */
-export {default as Schema} from './impl/schema';
-export {default as Field} from './impl/field';
-export {Type} from './impl/type';
+export {default as Schema} from './impl/schema.js';
+export {default as Field} from './impl/field.js';
+export {Type} from './impl/type.js';
 export {
   DataType,
   Null,
@@ -79,4 +79,4 @@ export {
   IntervalYearMonth,
   FixedSizeList,
   Struct
-} from './impl/type';
+} from './impl/type.js';

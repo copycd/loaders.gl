@@ -1,8 +1,8 @@
-import type {Schema} from '../schema/schema';
-import type {TableBatch} from '../../category/table/table-types';
-// import type {ArrayRowTableBatch, ObjectRowTableBatch} from '../../category/table';
-import {convertToArrayRow, convertToObjectRow} from '../utils/row-utils';
-import {TableBatchAggregator, TableBatchOptions} from './table-batch-aggregator';
+import type {Schema} from '../schema/schema.js';
+import type {TableBatch} from '../../category/table/table-types.js';
+// import type {ArrayRowTableBatch, ObjectRowTableBatch} from '../../category/table.js';
+import {convertToArrayRow, convertToObjectRow} from '../utils/row-utils.js';
+import {TableBatchAggregator, TableBatchOptions} from './table-batch-aggregator.js';
 
 const DEFAULT_ROW_COUNT = 100;
 

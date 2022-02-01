@@ -1,5 +1,5 @@
 // GIS
-import type {TypedArray} from '../types';
+import type {TypedArray} from '../types.js';
 import type {Feature, Geometry, Point, LineString, Polygon} from 'geojson';
 
 // GEOJSON FORMAT GEOMETRY

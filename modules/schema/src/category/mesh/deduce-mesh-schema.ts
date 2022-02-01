@@ -1,6 +1,6 @@
-import {MeshAttribute, MeshAttributes} from './mesh-types';
-import {Schema, Field, FixedSizeList} from '../../lib/schema/schema';
-import {getArrowTypeFromTypedArray} from '../../lib/arrow/arrow-like-type-utils';
+import {MeshAttribute, MeshAttributes} from './mesh-types.js';
+import {Schema, Field, FixedSizeList} from '../../lib/schema/schema.js';
+import {getArrowTypeFromTypedArray} from '../../lib/arrow/arrow-like-type-utils.js';
 
 /**
  * Create a schema for mesh attributes data

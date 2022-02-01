@@ -1,5 +1,5 @@
-import {assert} from '../../utils/assert';
-import Field from './field';
+import {assert} from '../../utils/assert.js';
+import Field from './field.js';
 
 export type SchemaMetadata = Map<string, any>;
 

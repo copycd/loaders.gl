@@ -1,6 +1,6 @@
-import type {Schema} from '../schema/schema';
-import type {TableBatch} from '../../category/table/table-types';
-import {TableBatchAggregator, TableBatchOptions} from './table-batch-aggregator';
+import type {Schema} from '../schema/schema.js';
+import type {TableBatch} from '../../category/table/table-types.js';
+import {TableBatchAggregator, TableBatchOptions} from './table-batch-aggregator.js';
 
 const DEFAULT_ROW_COUNT = 100;
 
