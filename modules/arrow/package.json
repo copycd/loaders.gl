@@ -2,6 +2,7 @@
   "name": "@loaders.gl/arrow",
   "version": "4.0.0-alpha.5",
   "description": "Simple columnar table loader for the Apache Arrow format",
+  "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
