@@ -6,8 +6,8 @@ import {
   Field,
   Data,
   FixedSizeListVector
-} from 'apache-arrow/Arrow.dom';
-import {AbstractVector} from 'apache-arrow/vector';
+} from 'apache-arrow/Arrow.dom.js';
+import {AbstractVector} from 'apache-arrow/vector.js';
 import {getArrowType, getArrowVector} from '../../lib/arrow/arrow-type-utils.js';
 import type {Mesh} from './mesh-types.js';
 import {makeMeshAttributeMetadata} from './deduce-mesh-schema.js';

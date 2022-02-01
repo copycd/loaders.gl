@@ -17,8 +17,8 @@ import {
   Uint32Vector,
   Float32Vector,
   Float64Vector
-} from 'apache-arrow/Arrow.dom';
-import {AbstractVector} from 'apache-arrow/vector';
+} from 'apache-arrow/Arrow.dom.js';
+import {AbstractVector} from 'apache-arrow/vector.js';
 
 export function getArrowType(array: TypedArray): DataType {
   switch (array.constructor) {
