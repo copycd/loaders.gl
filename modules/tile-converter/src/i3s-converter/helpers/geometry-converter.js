@@ -552,12 +552,22 @@ function convertMaterial(sourceMaterial) {
     // It is in upper case in GLTF: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#alpha-coverage
     // But it is in lower case in I3S: https://github.com/Esri/i3s-spec/blob/master/docs/1.7/materialDefinitions.cmn.md
     alphaMode: (sourceMaterial.alphaMode || 'OPAQUE').toLowerCase(),
-    pbrMetallicRoughness: {
-      roughnessFactor:
-        sourceMaterial?.pbrMetallicRoughness?.roughnessFactor || DEFAULT_ROUGHNESS_FACTOR,
-      metallicFactor:
-        sourceMaterial?.pbrMetallicRoughness?.metallicFactor || DEFAULT_METALLIC_FACTOR
-    }
+	
+	// copycd:: 문제가 있음. 위 링크의 문서대로 아래에서 처리하면, 너무 어둡게 건물이 나옴.
+	// copycd:: 일단은 값이 없는 경우만 기본값으로 처리함.
+	/*
+	pbrMetallicRoughness: {
+	  roughnessFactor:
+		sourceMaterial?.pbrMetallicRoughness?.roughnessFactor || DEFAULT_ROUGHNESS_FACTOR,
+	  metallicFactor:
+		sourceMaterial?.pbrMetallicRoughness?.metallicFactor || DEFAULT_METALLIC_FACTOR
+	}*/
+	pbrMetallicRoughness: {
+	  roughnessFactor:
+		sourceMaterial?.pbrMetallicRoughness?.roughnessFactor !== undefined? sourceMaterial.pbrMetallicRoughness.roughnessFactor:DEFAULT_ROUGHNESS_FACTOR,
+	  metallicFactor:
+		sourceMaterial?.pbrMetallicRoughness?.metallicFactor !== undefined? sourceMaterial.pbrMetallicRoughness.metallicFactor:DEFAULT_METALLIC_FACTOR
+	}
   };
 
   let texture;
