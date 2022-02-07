@@ -1,0 +1,12 @@
+- 일반 정확하게 어떻게 동작하는지 파악하지 못했음. 
+   컴파일 환경부터해서 방법을 모르겠음.
+
+- 내가 필요한건 현재 tile-converter module뿐이므로, 아래와 같이 함.
+- root에서 npm run tsbuild 를 실행  
+   (ts관련빌드해야 하므로, 근데, tsconfig.build.json에 내가 사용하려는 tile-converter가 exclude되어 있음 )
+   tile-converter안에 가서 다시 tsc 해야함.
+
+- modules\tile-converter에 가서
+  tsc 실행.
+
+- 실행은 modules\tile-converter 에서 npm run my-tile-converter
