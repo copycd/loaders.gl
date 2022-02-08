@@ -13,6 +13,8 @@
   VSCode에서도 converter.js를 실행하면 디버깅도 할 수 있음.
 - 배포를 위해서는 별도로 만들어 놓은 아래것을 실행함.
   npm run build-bundle-copycd
+
 - 다른곳에서 실행할때는
-  node converter.min.cjs 로 실행하면 되는데, 해당 폴더에 
-  deps/egm2008-5.pgm  아래 폴더가 있어야함.
+  node converter.min.cjs 로 실행하면 됨
+
+- egm2008-5.pgm과 7z.exe의경로는 맞춰주던가, 파라미터옵션으로 전달하면됨.
