@@ -38,3 +38,4 @@ yarn-error.log
 
 # local data
 data/**
+/modules/tile-converter/dist
