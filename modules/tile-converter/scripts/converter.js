@@ -73,7 +73,7 @@ let options;
 async function main() {
 
   // copycd::테스트용.
-  if( true )
+  if( false )
   {
     process.argv.push("--input-type");
     process.argv.push("3DTILES");
@@ -114,6 +114,9 @@ main();
 async function convert(options) {
   console.log(`------------------------------------------------`); // eslint-disable-line
   console.log(`Starting conversion of ${options.inputType}`); // eslint-disable-line
+  // copycd:: 추가.
+  console.log(`egm is ${options.egm}`);
+  console.log(`sevenZipExe is ${options.sevenZipExe}`);
   console.log(`------------------------------------------------`); // eslint-disable-line
   const inputType = options.inputType.toUpperCase();
   switch (inputType) {
