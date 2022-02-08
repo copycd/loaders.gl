@@ -96,7 +96,7 @@ function addBabelSettings(config) {
     },
     resolve: {
       ...config.resolve,
-      extensions: ['.ts', '.tsx', '.js', '.json']
+      extensions: ['.ts', '.tsx', '.js', '.cjs', '.json']
     }
   };
 }

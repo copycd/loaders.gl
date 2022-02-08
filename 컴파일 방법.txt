@@ -4,9 +4,15 @@
 - 내가 필요한건 현재 tile-converter module뿐이므로, 아래와 같이 함.
 - root에서 npm run tsbuild 를 실행  
    (ts관련빌드해야 하므로, 근데, tsconfig.build.json에 내가 사용하려는 tile-converter가 exclude되어 있음 )
-   tile-converter안에 가서 다시 tsc 해야함.
+   tile-converter안에 가서 한번더 tsc 해야함.
 
 - modules\tile-converter에 가서
   tsc 실행.
 
-- 실행은 modules\tile-converter 에서 npm run my-tile-converter
+- 실행은 modules\tile-converter 에서 npm run my-tile-converter 하면 실행되며
+  VSCode에서도 converter.js를 실행하면 디버깅도 할 수 있음.
+- 배포를 위해서는 별도로 만들어 놓은 아래것을 실행함.
+  npm run build-bundle-copycd
+- 다른곳에서 실행할때는
+  node converter.min.cjs 로 실행하면 되는데, 해당 폴더에 
+  deps/egm2008-5.pgm  아래 폴더가 있어야함.
