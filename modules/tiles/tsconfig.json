@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.module.json",
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/tileset/dist"],
   "compilerOptions": {
 	"module": "es6",
     "composite": true,
