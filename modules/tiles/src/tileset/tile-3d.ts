@@ -144,6 +144,7 @@ export default class TileHeader {
     this.refine = this._getRefine(header.refine);
     this.type = header.type;
     this.contentUrl = header.contentUrl;
+    console.warn( "copycd : 1 : " + this.contentUrl );
 
     // The error, in meters, introduced if this tile is rendered and its children are not.
     this.lodMetricType = 'geometricError';
@@ -375,6 +376,7 @@ export default class TileHeader {
     }
 
     try {
+      console.warn( this.contentUrl );
       const contentUrl = this.tileset.getTileUrl(this.contentUrl);
       // The content can be a binary tile ot a JSON tileset
       const loader = this.tileset.loader;

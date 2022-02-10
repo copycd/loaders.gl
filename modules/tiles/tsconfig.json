@@ -1,12 +1,18 @@
 {
   "extends": "../../tsconfig.module.json",
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "src/tileset/dist"],
   "compilerOptions": {
-	"module": "es6",
+    "build": true,
     "composite": true,
     "rootDir": "src",
-    "outDir": "dist"
+    "target": "ES2020",
+	"module": "ES2020",
+	"esModuleInterop": true,
+	"moduleResolution": "node",
+	// copycd:: ts와 같은 폴더에도 js가 만들어져야함. 고민임.
+    //"outDir": "dist",
+	"strict": true
   },
   "references": [
     {"path": "../core"},
