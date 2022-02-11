@@ -20,9 +20,9 @@
     "point cloud",
     "pointcloud"
   ],
-  "types": "src/index.d.ts",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "sideEffects": false,
   "files": [
     "src",
