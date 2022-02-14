@@ -7,8 +7,8 @@
 	"module": "ES2020",
     "composite": true,
     "rootDir": "src",
-	"esModuleInterop": true,
-	"moduleResolution": "node",
+	//"esModuleInterop": true,
+	//"moduleResolution": "node",
 	// copycd:: ts와 같은 폴더에필요할 경우, outDir을 막으면됨.
     "outDir": "dist"
   },
@@ -16,6 +16,6 @@
     {"path": "../core"},
     {"path": "../loader-utils"},
     {"path": "../math"},
-	{"path": "../polyfills"}
+	  {"path": "../polyfills"}
   ]
 }

@@ -31,10 +31,11 @@
   ],
   "scripts": {
     "pre-build": "npm run build-bundle",
-    "build-bundle": "esbuild src/index.js --bundle --outfile=dist/dist.min.js --platform=node"
+    "build-bundle": "esbuild dist/index.js --bundle --outfile=dist/dist.min.js --platform=node"
   },
   "dependencies": {
     "@loaders.gl/loader-utils": "4.0.0-alpha.5",
+	"@loaders.gl/worker-utils": "4.0.0-alpha.5",
     "@loaders.gl/math": "4.0.0-alpha.5",
     "@math.gl/core": "^3.5.1",
     "@math.gl/culling": "^3.5.1",
@@ -43,7 +44,7 @@
     "@probe.gl/stats": "^3.5.0"
   },
   "peerDependencies": {
-    "@loaders.gl/core": "4.0.0-alpha.4"
+    "@loaders.gl/core": "4.0.0-alpha.5"
   },
   "devDependencies": {
     "esbuild": "^0.14.21",
