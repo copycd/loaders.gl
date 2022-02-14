@@ -1,6 +1,6 @@
 {
   "extends": "../../tsconfig.module.json",
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"],
   "compilerOptions": {
 	"target": "ES2020",
