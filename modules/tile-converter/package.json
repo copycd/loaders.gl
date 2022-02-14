@@ -34,10 +34,10 @@
     "fs": false
   },
   "scripts": {
-    "my-tile-converter": "node ./scripts/converter.js",
+    "myconverter": "node ./scripts/converter.js",
     "pre-build": "npm run build-bundle  && npm run build-converter-bundle",
     "build-bundle": "esbuild ./src/index.ts --bundle --outfile=dist/dist.min.js --platform=node --minify",
-	"build-bundle-copycd": "esbuild ./scripts/converter.js --bundle --outfile=dist/converter.min.cjs --platform=node",
+    "build-bundle-copycd": "esbuild ./scripts/converter.js --bundle --outfile=dist/converter.min.cjs --platform=node",
     "build-converter-bundle": "webpack --display errors-only --config ./converter-webpack/bundle.js",
     "build-bin": "BABEL_ENV=es6 babel scripts --config-file ../../babel.config.js --out-dir dist/scripts"
   },
@@ -63,6 +63,7 @@
     "cors": "^2.8.5",
     "crypt": "^0.0.2",
     "debug": "~2.6.9",
+    "esm": "^3.2.25",
     "express": "~4.16.1",
     "json-map-transform": "^1.2.6",
     "jszip": "^3.5.0",
@@ -71,6 +72,6 @@
     "uuid": "^8.1.0"
   },
   "peerDependencies": {
-    "@loaders.gl/core": "4.0.0-alpha.4"
+    "@loaders.gl/core": "4.0.0-alpha.5"
   }
 }
