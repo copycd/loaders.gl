@@ -183,6 +183,9 @@ export default class I3SConverter {
     Object.assign(tilesetOptions, preloadOptions);
     const sourceTilesetJson = await load(inputUrl, this.Loader, tilesetOptions.loadOptions);
     // console.log(tilesetJson); // eslint-disable-line
+    console.log('copycd:: sourceTilesetJson.basePath:' + sourceTilesetJson.basePath );
+    console.log("copycd:: sourceTilesetJson.url : " + sourceTilesetJson.url );
+
     this.sourceTileset = new Tileset3D(sourceTilesetJson, tilesetOptions);
 
     await this._createAndSaveTileset(outputPath, tilesetName);

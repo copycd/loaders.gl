@@ -72,7 +72,8 @@ let options;
 async function main() {
 
   // copycd::테스트용.
-  if( false )
+  let forTest = false;
+  if( forTest )
   {
     process.argv.push("--input-type");
     process.argv.push("3DTILES");
@@ -112,6 +113,7 @@ main();
 // eslint-disable-next-line no-shadow
 async function convert(options) {
   console.log(`------------------------------------------------`); // eslint-disable-line
+  console.log(`version 2022.02.15`);
   console.log(`Starting conversion of ${options.inputType}`); // eslint-disable-line
   // copycd:: 추가.
   console.log(`egm is ${options.egm}`);

@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.module.json",
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/i3s-converter/dist"],
   "compilerOptions": {
 	"target": "ES2020",
 	"module": "ES2020",

@@ -65,6 +65,7 @@
   "pre-push": "",
   "dependencies": {
     "@math.gl/geoid": "^3.5.6",
+    "esm": "^3.2.25",
     "json-map-transform": "^1.2.6"
   },
   "resolutions_notes": [

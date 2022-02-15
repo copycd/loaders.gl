@@ -16,6 +16,6 @@
     {"path": "../core"},
     {"path": "../loader-utils"},
     {"path": "../math"},
-	  {"path": "../polyfills"}
+	{"path": "../polyfills"}
   ]
 }

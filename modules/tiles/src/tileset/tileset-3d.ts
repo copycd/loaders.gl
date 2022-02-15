@@ -593,8 +593,8 @@ export default class Tileset3D {
   _initializeTileHeaders(tilesetJson, parentTileHeader) {
     // A tileset JSON file referenced from a tile may exist in a different directory than the root tileset.
     // Get the basePath relative to the external tileset.
-    console.log("copycd:: basePath : " + this.basePath);
-    console.log("copycd:: tilesetJson.basePath : " + tilesetJson.basePath);
+    console.log("copycd:: _initializeTileHeaders::basePath= " + this.basePath);
+    console.log("copycd:: _initializeTileHeaders::tilesetJson.basePath= " + tilesetJson.basePath);
     const rootTile = new Tile3D(this, tilesetJson.root, parentTileHeader); // resource
 
     // If there is a parentTileHeader, add the root of the currently loading tileset
